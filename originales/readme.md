@@ -1,16 +1,16 @@
 ## Ficheros origiales de Jorge
-###EL MMODELO QUE FUNCIONA ESTÁ EN MODEL_ML100K_DOT.PY
+### EL MMODELO QUE FUNCIONA ESTÁ EN MODEL_ML100K_DOT.PY
 
-##model_ml100k_dot_generos_estaticos.py
+### model_ml100k_dot_generos_estaticos.py
 GEN en el artículo. Este prograna es el que hace el producto escalar con los géneros originales
 
-###model_ml100k_MF.py
+### model_ml100k_MF.py
 FM_oh en el artículo. Hace factorización de matrices con one-hot
 
-###model_ml100k_MF2.py
+### model_ml100k_MF2.py
 FM_oh+g en el artículo. Hace factorización de matrices con one-hot pero añadiendo los géneros de las películas
 
-###model_ml100k_dot.py
+### model_ml100k_dot.py
 STE en el artículo. El nuestro
 
 Lo que se pretende es mostrar que se puede hacer una recomendación que venga acompañada
