@@ -1,0 +1,2350 @@
+/Users/jdiez/venv_TF/bin/python /Users/jdiez/PycharmProjects/OutBrainOtrosCjtos/ML100K_Learning_WV.py
+________________________________________________________
+
+TRABAJANDO CON ML100K
+________________________________________________________
+va a cargar...
+(76022, 44)
+(23978, 44)
+No gusta en test: 43.16873800984236
+Gusta en test: 56.83126199015764
+2020-12-30 11:08:52.249998: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-30 11:08:52.290251: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fa58de40f00 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-30 11:08:52.290267: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+0.00% epoch    0, iter      0/11988, global_step 2369 loss = 0.717743
+19.59% epoch    0, iter     29/11988, global_step 2398 loss = 0.723970
+39.19% epoch    0, iter     58/11988, global_step 2427 loss = 0.707594
+58.78% epoch    0, iter     87/11988, global_step 2456 loss = 0.712023
+78.38% epoch    0, iter    116/11988, global_step 2485 loss = 0.711854
+97.97% epoch    0, iter    145/11988, global_step 2514 loss = 0.714958
+TRAIN  epoch 0  global_step 2516, NumFallos: 37602, error 0.4946
+TEST   epoch 0  global_step 2516, NumFallos: 11585, error 0.4832
+17.57% epoch    1, iter    174/11988, global_step 2543 loss = 0.705666
+37.16% epoch    1, iter    203/11988, global_step 2572 loss = 0.724291
+56.76% epoch    1, iter    232/11988, global_step 2601 loss = 0.695734
+76.35% epoch    1, iter    261/11988, global_step 2630 loss = 0.728656
+95.95% epoch    1, iter    290/11988, global_step 2659 loss = 0.725254
+15.54% epoch    2, iter    319/11988, global_step 2688 loss = 0.727749
+35.14% epoch    2, iter    348/11988, global_step 2717 loss = 0.729694
+54.73% epoch    2, iter    377/11988, global_step 2746 loss = 0.724121
+74.32% epoch    2, iter    406/11988, global_step 2775 loss = 0.725062
+93.92% epoch    2, iter    435/11988, global_step 2804 loss = 0.709686
+13.51% epoch    3, iter    464/11988, global_step 2833 loss = 0.713170
+33.11% epoch    3, iter    493/11988, global_step 2862 loss = 0.692288
+52.70% epoch    3, iter    522/11988, global_step 2891 loss = 0.702829
+72.30% epoch    3, iter    551/11988, global_step 2920 loss = 0.717152
+91.89% epoch    3, iter    580/11988, global_step 2949 loss = 0.741613
+11.49% epoch    4, iter    609/11988, global_step 2978 loss = 0.709879
+31.08% epoch    4, iter    638/11988, global_step 3007 loss = 0.716719
+50.68% epoch    4, iter    667/11988, global_step 3036 loss = 0.719970
+70.27% epoch    4, iter    696/11988, global_step 3065 loss = 0.720665
+89.86% epoch    4, iter    725/11988, global_step 3094 loss = 0.730648
+TRAIN  epoch 4  global_step 3108, NumFallos: 37468, error 0.4929
+TEST   epoch 4  global_step 3108, NumFallos: 11528, error 0.4808
+WARNING:tensorflow:From /Users/jdiez/venv_TF/lib/python3.8/site-packages/tensorflow/python/training/saver.py:969: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+9.46% epoch    5, iter    754/11988, global_step 3123 loss = 0.704385
+29.05% epoch    5, iter    783/11988, global_step 3152 loss = 0.696737
+48.65% epoch    5, iter    812/11988, global_step 3181 loss = 0.725686
+68.24% epoch    5, iter    841/11988, global_step 3210 loss = 0.704968
+87.84% epoch    5, iter    870/11988, global_step 3239 loss = 0.716110
+7.43% epoch    6, iter    899/11988, global_step 3268 loss = 0.716164
+27.03% epoch    6, iter    928/11988, global_step 3297 loss = 0.721550
+46.62% epoch    6, iter    957/11988, global_step 3326 loss = 0.704719
+66.22% epoch    6, iter    986/11988, global_step 3355 loss = 0.703003
+85.81% epoch    6, iter   1015/11988, global_step 3384 loss = 0.719164
+5.41% epoch    7, iter   1044/11988, global_step 3413 loss = 0.706574
+25.00% epoch    7, iter   1073/11988, global_step 3442 loss = 0.704690
+44.59% epoch    7, iter   1102/11988, global_step 3471 loss = 0.724758
+64.19% epoch    7, iter   1131/11988, global_step 3500 loss = 0.722282
+83.78% epoch    7, iter   1160/11988, global_step 3529 loss = 0.720262
+3.38% epoch    8, iter   1189/11988, global_step 3558 loss = 0.715205
+22.97% epoch    8, iter   1218/11988, global_step 3587 loss = 0.704780
+42.57% epoch    8, iter   1247/11988, global_step 3616 loss = 0.711881
+62.16% epoch    8, iter   1276/11988, global_step 3645 loss = 0.743293
+81.76% epoch    8, iter   1305/11988, global_step 3674 loss = 0.708765
+TRAIN  epoch 8  global_step 3700, NumFallos: 37423, error 0.4923
+TEST   epoch 8  global_step 3700, NumFallos: 11524, error 0.4806
+1.35% epoch    9, iter   1334/11988, global_step 3703 loss = 0.696801
+20.95% epoch    9, iter   1363/11988, global_step 3732 loss = 0.702653
+40.54% epoch    9, iter   1392/11988, global_step 3761 loss = 0.703824
+60.14% epoch    9, iter   1421/11988, global_step 3790 loss = 0.718767
+79.73% epoch    9, iter   1450/11988, global_step 3819 loss = 0.704651
+99.32% epoch    9, iter   1479/11988, global_step 3848 loss = 0.718166
+18.92% epoch   10, iter   1508/11988, global_step 3877 loss = 0.702725
+38.51% epoch   10, iter   1537/11988, global_step 3906 loss = 0.713269
+58.11% epoch   10, iter   1566/11988, global_step 3935 loss = 0.737186
+77.70% epoch   10, iter   1595/11988, global_step 3964 loss = 0.713397
+97.30% epoch   10, iter   1624/11988, global_step 3993 loss = 0.713927
+16.89% epoch   11, iter   1653/11988, global_step 4022 loss = 0.718577
+36.49% epoch   11, iter   1682/11988, global_step 4051 loss = 0.700592
+56.08% epoch   11, iter   1711/11988, global_step 4080 loss = 0.714891
+75.68% epoch   11, iter   1740/11988, global_step 4109 loss = 0.707200
+95.27% epoch   11, iter   1769/11988, global_step 4138 loss = 0.697658
+14.86% epoch   12, iter   1798/11988, global_step 4167 loss = 0.717387
+34.46% epoch   12, iter   1827/11988, global_step 4196 loss = 0.702091
+54.05% epoch   12, iter   1856/11988, global_step 4225 loss = 0.724882
+73.65% epoch   12, iter   1885/11988, global_step 4254 loss = 0.709722
+93.24% epoch   12, iter   1914/11988, global_step 4283 loss = 0.708330
+TRAIN  epoch 12  global_step 4292, NumFallos: 37402, error 0.4920
+TEST   epoch 12  global_step 4292, NumFallos: 11464, error 0.4781
+12.84% epoch   13, iter   1943/11988, global_step 4312 loss = 0.707599
+32.43% epoch   13, iter   1972/11988, global_step 4341 loss = 0.696267
+52.03% epoch   13, iter   2001/11988, global_step 4370 loss = 0.711593
+71.62% epoch   13, iter   2030/11988, global_step 4399 loss = 0.718318
+91.22% epoch   13, iter   2059/11988, global_step 4428 loss = 0.699623
+10.81% epoch   14, iter   2088/11988, global_step 4457 loss = 0.705527
+30.41% epoch   14, iter   2117/11988, global_step 4486 loss = 0.691156
+50.00% epoch   14, iter   2146/11988, global_step 4515 loss = 0.695577
+69.59% epoch   14, iter   2175/11988, global_step 4544 loss = 0.714104
+89.19% epoch   14, iter   2204/11988, global_step 4573 loss = 0.716344
+8.78% epoch   15, iter   2233/11988, global_step 4602 loss = 0.720941
+28.38% epoch   15, iter   2262/11988, global_step 4631 loss = 0.709470
+47.97% epoch   15, iter   2291/11988, global_step 4660 loss = 0.718356
+67.57% epoch   15, iter   2320/11988, global_step 4689 loss = 0.718470
+87.16% epoch   15, iter   2349/11988, global_step 4718 loss = 0.718861
+6.76% epoch   16, iter   2378/11988, global_step 4747 loss = 0.698722
+26.35% epoch   16, iter   2407/11988, global_step 4776 loss = 0.707569
+45.95% epoch   16, iter   2436/11988, global_step 4805 loss = 0.717282
+65.54% epoch   16, iter   2465/11988, global_step 4834 loss = 0.713338
+85.14% epoch   16, iter   2494/11988, global_step 4863 loss = 0.701004
+TRAIN  epoch 16  global_step 4884, NumFallos: 37306, error 0.4907
+TEST   epoch 16  global_step 4884, NumFallos: 11451, error 0.4776
+4.73% epoch   17, iter   2523/11988, global_step 4892 loss = 0.724574
+24.32% epoch   17, iter   2552/11988, global_step 4921 loss = 0.695510
+43.92% epoch   17, iter   2581/11988, global_step 4950 loss = 0.719276
+63.51% epoch   17, iter   2610/11988, global_step 4979 loss = 0.708003
+83.11% epoch   17, iter   2639/11988, global_step 5008 loss = 0.691825
+2.70% epoch   18, iter   2668/11988, global_step 5037 loss = 0.694127
+22.30% epoch   18, iter   2697/11988, global_step 5066 loss = 0.698145
+41.89% epoch   18, iter   2726/11988, global_step 5095 loss = 0.700493
+61.49% epoch   18, iter   2755/11988, global_step 5124 loss = 0.710929
+81.08% epoch   18, iter   2784/11988, global_step 5153 loss = 0.701991
+0.68% epoch   19, iter   2813/11988, global_step 5182 loss = 0.704511
+20.27% epoch   19, iter   2842/11988, global_step 5211 loss = 0.711135
+39.86% epoch   19, iter   2871/11988, global_step 5240 loss = 0.711175
+59.46% epoch   19, iter   2900/11988, global_step 5269 loss = 0.720553
+79.05% epoch   19, iter   2929/11988, global_step 5298 loss = 0.694185
+98.65% epoch   19, iter   2958/11988, global_step 5327 loss = 0.700364
+18.24% epoch   20, iter   2987/11988, global_step 5356 loss = 0.693650
+37.84% epoch   20, iter   3016/11988, global_step 5385 loss = 0.704594
+57.43% epoch   20, iter   3045/11988, global_step 5414 loss = 0.704335
+77.03% epoch   20, iter   3074/11988, global_step 5443 loss = 0.708120
+96.62% epoch   20, iter   3103/11988, global_step 5472 loss = 0.719543
+TRAIN  epoch 20  global_step 5476, NumFallos: 37188, error 0.4892
+TEST   epoch 20  global_step 5476, NumFallos: 11412, error 0.4759
+16.22% epoch   21, iter   3132/11988, global_step 5501 loss = 0.693984
+35.81% epoch   21, iter   3161/11988, global_step 5530 loss = 0.693039
+55.41% epoch   21, iter   3190/11988, global_step 5559 loss = 0.709682
+75.00% epoch   21, iter   3219/11988, global_step 5588 loss = 0.705234
+94.59% epoch   21, iter   3248/11988, global_step 5617 loss = 0.696807
+14.19% epoch   22, iter   3277/11988, global_step 5646 loss = 0.704742
+33.78% epoch   22, iter   3306/11988, global_step 5675 loss = 0.706408
+53.38% epoch   22, iter   3335/11988, global_step 5704 loss = 0.715839
+72.97% epoch   22, iter   3364/11988, global_step 5733 loss = 0.705001
+92.57% epoch   22, iter   3393/11988, global_step 5762 loss = 0.699466
+12.16% epoch   23, iter   3422/11988, global_step 5791 loss = 0.679674
+31.76% epoch   23, iter   3451/11988, global_step 5820 loss = 0.716500
+51.35% epoch   23, iter   3480/11988, global_step 5849 loss = 0.708755
+70.95% epoch   23, iter   3509/11988, global_step 5878 loss = 0.713926
+90.54% epoch   23, iter   3538/11988, global_step 5907 loss = 0.725666
+10.14% epoch   24, iter   3567/11988, global_step 5936 loss = 0.694861
+29.73% epoch   24, iter   3596/11988, global_step 5965 loss = 0.710451
+49.32% epoch   24, iter   3625/11988, global_step 5994 loss = 0.703818
+68.92% epoch   24, iter   3654/11988, global_step 6023 loss = 0.724999
+88.51% epoch   24, iter   3683/11988, global_step 6052 loss = 0.720704
+TRAIN  epoch 24  global_step 6068, NumFallos: 37110, error 0.4881
+TEST   epoch 24  global_step 6068, NumFallos: 11379, error 0.4746
+8.11% epoch   25, iter   3712/11988, global_step 6081 loss = 0.703153
+27.70% epoch   25, iter   3741/11988, global_step 6110 loss = 0.707905
+47.30% epoch   25, iter   3770/11988, global_step 6139 loss = 0.710870
+66.89% epoch   25, iter   3799/11988, global_step 6168 loss = 0.717491
+86.49% epoch   25, iter   3828/11988, global_step 6197 loss = 0.698881
+6.08% epoch   26, iter   3857/11988, global_step 6226 loss = 0.707816
+25.68% epoch   26, iter   3886/11988, global_step 6255 loss = 0.711268
+45.27% epoch   26, iter   3915/11988, global_step 6284 loss = 0.708439
+64.86% epoch   26, iter   3944/11988, global_step 6313 loss = 0.704759
+84.46% epoch   26, iter   3973/11988, global_step 6342 loss = 0.707992
+4.05% epoch   27, iter   4002/11988, global_step 6371 loss = 0.710502
+23.65% epoch   27, iter   4031/11988, global_step 6400 loss = 0.708714
+43.24% epoch   27, iter   4060/11988, global_step 6429 loss = 0.703490
+62.84% epoch   27, iter   4089/11988, global_step 6458 loss = 0.695738
+82.43% epoch   27, iter   4118/11988, global_step 6487 loss = 0.688770
+2.03% epoch   28, iter   4147/11988, global_step 6516 loss = 0.694120
+21.62% epoch   28, iter   4176/11988, global_step 6545 loss = 0.704754
+41.22% epoch   28, iter   4205/11988, global_step 6574 loss = 0.716962
+60.81% epoch   28, iter   4234/11988, global_step 6603 loss = 0.700512
+80.41% epoch   28, iter   4263/11988, global_step 6632 loss = 0.696191
+TRAIN  epoch 28  global_step 6660, NumFallos: 36957, error 0.4861
+TEST   epoch 28  global_step 6660, NumFallos: 11328, error 0.4724
+0.00% epoch   29, iter   4292/11988, global_step 6661 loss = 0.708252
+19.59% epoch   29, iter   4321/11988, global_step 6690 loss = 0.708856
+39.19% epoch   29, iter   4350/11988, global_step 6719 loss = 0.696842
+58.78% epoch   29, iter   4379/11988, global_step 6748 loss = 0.700844
+78.38% epoch   29, iter   4408/11988, global_step 6777 loss = 0.701643
+97.97% epoch   29, iter   4437/11988, global_step 6806 loss = 0.702159
+17.57% epoch   30, iter   4466/11988, global_step 6835 loss = 0.696227
+37.16% epoch   30, iter   4495/11988, global_step 6864 loss = 0.710495
+56.76% epoch   30, iter   4524/11988, global_step 6893 loss = 0.687031
+76.35% epoch   30, iter   4553/11988, global_step 6922 loss = 0.716793
+95.95% epoch   30, iter   4582/11988, global_step 6951 loss = 0.714577
+15.54% epoch   31, iter   4611/11988, global_step 6980 loss = 0.712433
+35.14% epoch   31, iter   4640/11988, global_step 7009 loss = 0.714993
+54.73% epoch   31, iter   4669/11988, global_step 7038 loss = 0.710791
+74.32% epoch   31, iter   4698/11988, global_step 7067 loss = 0.711458
+93.92% epoch   31, iter   4727/11988, global_step 7096 loss = 0.699000
+13.51% epoch   32, iter   4756/11988, global_step 7125 loss = 0.702191
+33.11% epoch   32, iter   4785/11988, global_step 7154 loss = 0.685523
+52.70% epoch   32, iter   4814/11988, global_step 7183 loss = 0.692847
+72.30% epoch   32, iter   4843/11988, global_step 7212 loss = 0.704938
+91.89% epoch   32, iter   4872/11988, global_step 7241 loss = 0.728875
+TRAIN  epoch 32  global_step 7252, NumFallos: 36908, error 0.4855
+TEST   epoch 32  global_step 7252, NumFallos: 11314, error 0.4718
+11.49% epoch   33, iter   4901/11988, global_step 7270 loss = 0.700192
+31.08% epoch   33, iter   4930/11988, global_step 7299 loss = 0.705329
+50.68% epoch   33, iter   4959/11988, global_step 7328 loss = 0.707474
+70.27% epoch   33, iter   4988/11988, global_step 7357 loss = 0.709066
+89.86% epoch   33, iter   5017/11988, global_step 7386 loss = 0.714456
+9.46% epoch   34, iter   5046/11988, global_step 7415 loss = 0.695323
+29.05% epoch   34, iter   5075/11988, global_step 7444 loss = 0.687286
+48.65% epoch   34, iter   5104/11988, global_step 7473 loss = 0.711037
+68.24% epoch   34, iter   5133/11988, global_step 7502 loss = 0.698371
+87.84% epoch   34, iter   5162/11988, global_step 7531 loss = 0.704793
+7.43% epoch   35, iter   5191/11988, global_step 7560 loss = 0.704729
+27.03% epoch   35, iter   5220/11988, global_step 7589 loss = 0.709665
+46.62% epoch   35, iter   5249/11988, global_step 7618 loss = 0.698130
+66.22% epoch   35, iter   5278/11988, global_step 7647 loss = 0.695401
+85.81% epoch   35, iter   5307/11988, global_step 7676 loss = 0.707909
+5.41% epoch   36, iter   5336/11988, global_step 7705 loss = 0.695293
+25.00% epoch   36, iter   5365/11988, global_step 7734 loss = 0.692601
+44.59% epoch   36, iter   5394/11988, global_step 7763 loss = 0.710902
+64.19% epoch   36, iter   5423/11988, global_step 7792 loss = 0.710039
+83.78% epoch   36, iter   5452/11988, global_step 7821 loss = 0.707136
+TRAIN  epoch 36  global_step 7844, NumFallos: 36685, error 0.4826
+TEST   epoch 36  global_step 7844, NumFallos: 11258, error 0.4695
+3.38% epoch   37, iter   5481/11988, global_step 7850 loss = 0.704958
+22.97% epoch   37, iter   5510/11988, global_step 7879 loss = 0.696075
+42.57% epoch   37, iter   5539/11988, global_step 7908 loss = 0.700518
+62.16% epoch   37, iter   5568/11988, global_step 7937 loss = 0.726345
+81.76% epoch   37, iter   5597/11988, global_step 7966 loss = 0.698058
+1.35% epoch   38, iter   5626/11988, global_step 7995 loss = 0.688671
+20.95% epoch   38, iter   5655/11988, global_step 8024 loss = 0.693502
+40.54% epoch   38, iter   5684/11988, global_step 8053 loss = 0.693705
+60.14% epoch   38, iter   5713/11988, global_step 8082 loss = 0.708738
+79.73% epoch   38, iter   5742/11988, global_step 8111 loss = 0.695721
+99.32% epoch   38, iter   5771/11988, global_step 8140 loss = 0.707361
+18.92% epoch   39, iter   5800/11988, global_step 8169 loss = 0.691866
+38.51% epoch   39, iter   5829/11988, global_step 8198 loss = 0.702008
+58.11% epoch   39, iter   5858/11988, global_step 8227 loss = 0.725508
+77.70% epoch   39, iter   5887/11988, global_step 8256 loss = 0.702745
+97.30% epoch   39, iter   5916/11988, global_step 8285 loss = 0.702454
+16.89% epoch   40, iter   5945/11988, global_step 8314 loss = 0.708246
+36.49% epoch   40, iter   5974/11988, global_step 8343 loss = 0.691086
+56.08% epoch   40, iter   6003/11988, global_step 8372 loss = 0.706236
+75.68% epoch   40, iter   6032/11988, global_step 8401 loss = 0.697336
+95.27% epoch   40, iter   6061/11988, global_step 8430 loss = 0.691092
+TRAIN  epoch 40  global_step 8436, NumFallos: 36538, error 0.4806
+TEST   epoch 40  global_step 8436, NumFallos: 11218, error 0.4678
+14.86% epoch   41, iter   6090/11988, global_step 8459 loss = 0.703955
+34.46% epoch   41, iter   6119/11988, global_step 8488 loss = 0.695448
+54.05% epoch   41, iter   6148/11988, global_step 8517 loss = 0.711566
+73.65% epoch   41, iter   6177/11988, global_step 8546 loss = 0.696778
+93.24% epoch   41, iter   6206/11988, global_step 8575 loss = 0.700411
+12.84% epoch   42, iter   6235/11988, global_step 8604 loss = 0.697672
+32.43% epoch   42, iter   6264/11988, global_step 8633 loss = 0.687840
+52.03% epoch   42, iter   6293/11988, global_step 8662 loss = 0.699449
+71.62% epoch   42, iter   6322/11988, global_step 8691 loss = 0.708726
+91.22% epoch   42, iter   6351/11988, global_step 8720 loss = 0.694131
+10.81% epoch   43, iter   6380/11988, global_step 8749 loss = 0.696671
+30.41% epoch   43, iter   6409/11988, global_step 8778 loss = 0.683563
+50.00% epoch   43, iter   6438/11988, global_step 8807 loss = 0.688763
+69.59% epoch   43, iter   6467/11988, global_step 8836 loss = 0.704122
+89.19% epoch   43, iter   6496/11988, global_step 8865 loss = 0.708876
+8.78% epoch   44, iter   6525/11988, global_step 8894 loss = 0.709328
+28.38% epoch   44, iter   6554/11988, global_step 8923 loss = 0.700614
+47.97% epoch   44, iter   6583/11988, global_step 8952 loss = 0.710208
+67.57% epoch   44, iter   6612/11988, global_step 8981 loss = 0.706880
+87.16% epoch   44, iter   6641/11988, global_step 9010 loss = 0.705615
+TRAIN  epoch 44  global_step 9028, NumFallos: 36402, error 0.4788
+TEST   epoch 44  global_step 9028, NumFallos: 11188, error 0.4666
+6.76% epoch   45, iter   6670/11988, global_step 9039 loss = 0.690727
+26.35% epoch   45, iter   6699/11988, global_step 9068 loss = 0.696402
+45.95% epoch   45, iter   6728/11988, global_step 9097 loss = 0.708866
+65.54% epoch   45, iter   6757/11988, global_step 9126 loss = 0.705029
+85.14% epoch   45, iter   6786/11988, global_step 9155 loss = 0.693336
+4.73% epoch   46, iter   6815/11988, global_step 9184 loss = 0.716035
+24.32% epoch   46, iter   6844/11988, global_step 9213 loss = 0.687976
+43.92% epoch   46, iter   6873/11988, global_step 9242 loss = 0.709911
+63.51% epoch   46, iter   6902/11988, global_step 9271 loss = 0.700215
+83.11% epoch   46, iter   6931/11988, global_step 9300 loss = 0.684506
+2.70% epoch   47, iter   6960/11988, global_step 9329 loss = 0.687659
+22.30% epoch   47, iter   6989/11988, global_step 9358 loss = 0.689027
+41.89% epoch   47, iter   7018/11988, global_step 9387 loss = 0.691348
+61.49% epoch   47, iter   7047/11988, global_step 9416 loss = 0.701896
+81.08% epoch   47, iter   7076/11988, global_step 9445 loss = 0.692149
+0.68% epoch   48, iter   7105/11988, global_step 9474 loss = 0.696733
+20.27% epoch   48, iter   7134/11988, global_step 9503 loss = 0.702893
+39.86% epoch   48, iter   7163/11988, global_step 9532 loss = 0.699601
+59.46% epoch   48, iter   7192/11988, global_step 9561 loss = 0.711367
+79.05% epoch   48, iter   7221/11988, global_step 9590 loss = 0.690283
+98.65% epoch   48, iter   7250/11988, global_step 9619 loss = 0.692724
+TRAIN  epoch 48  global_step 9620, NumFallos: 36252, error 0.4769
+TEST   epoch 48  global_step 9620, NumFallos: 11137, error 0.4645
+18.24% epoch   49, iter   7279/11988, global_step 9648 loss = 0.688964
+37.84% epoch   49, iter   7308/11988, global_step 9677 loss = 0.697496
+57.43% epoch   49, iter   7337/11988, global_step 9706 loss = 0.696242
+77.03% epoch   49, iter   7366/11988, global_step 9735 loss = 0.699291
+96.62% epoch   49, iter   7395/11988, global_step 9764 loss = 0.708681
+16.22% epoch   50, iter   7424/11988, global_step 9793 loss = 0.687347
+35.81% epoch   50, iter   7453/11988, global_step 9822 loss = 0.689002
+55.41% epoch   50, iter   7482/11988, global_step 9851 loss = 0.701025
+75.00% epoch   50, iter   7511/11988, global_step 9880 loss = 0.695770
+94.59% epoch   50, iter   7540/11988, global_step 9909 loss = 0.687692
+14.19% epoch   51, iter   7569/11988, global_step 9938 loss = 0.694527
+33.78% epoch   51, iter   7598/11988, global_step 9967 loss = 0.696798
+53.38% epoch   51, iter   7627/11988, global_step 9996 loss = 0.706807
+72.97% epoch   51, iter   7656/11988, global_step 10025 loss = 0.694760
+92.57% epoch   51, iter   7685/11988, global_step 10054 loss = 0.691961
+12.16% epoch   52, iter   7714/11988, global_step 10083 loss = 0.673174
+31.76% epoch   52, iter   7743/11988, global_step 10112 loss = 0.708185
+51.35% epoch   52, iter   7772/11988, global_step 10141 loss = 0.701118
+70.95% epoch   52, iter   7801/11988, global_step 10170 loss = 0.703717
+90.54% epoch   52, iter   7830/11988, global_step 10199 loss = 0.712523
+TRAIN  epoch 52  global_step 10212, NumFallos: 36021, error 0.4738
+TEST   epoch 52  global_step 10212, NumFallos: 11061, error 0.4613
+10.14% epoch   53, iter   7859/11988, global_step 10228 loss = 0.686672
+29.73% epoch   53, iter   7888/11988, global_step 10257 loss = 0.702521
+49.32% epoch   53, iter   7917/11988, global_step 10286 loss = 0.694152
+68.92% epoch   53, iter   7946/11988, global_step 10315 loss = 0.713047
+88.51% epoch   53, iter   7975/11988, global_step 10344 loss = 0.711710
+8.11% epoch   54, iter   8004/11988, global_step 10373 loss = 0.695125
+27.70% epoch   54, iter   8033/11988, global_step 10402 loss = 0.700094
+47.30% epoch   54, iter   8062/11988, global_step 10431 loss = 0.700973
+66.89% epoch   54, iter   8091/11988, global_step 10460 loss = 0.706334
+86.49% epoch   54, iter   8120/11988, global_step 10489 loss = 0.688216
+6.08% epoch   55, iter   8149/11988, global_step 10518 loss = 0.699700
+25.68% epoch   55, iter   8178/11988, global_step 10547 loss = 0.698975
+45.27% epoch   55, iter   8207/11988, global_step 10576 loss = 0.701040
+64.86% epoch   55, iter   8236/11988, global_step 10605 loss = 0.696182
+84.46% epoch   55, iter   8265/11988, global_step 10634 loss = 0.700372
+4.05% epoch   56, iter   8294/11988, global_step 10663 loss = 0.704155
+23.65% epoch   56, iter   8323/11988, global_step 10692 loss = 0.700867
+43.24% epoch   56, iter   8352/11988, global_step 10721 loss = 0.696774
+62.84% epoch   56, iter   8381/11988, global_step 10750 loss = 0.687531
+82.43% epoch   56, iter   8410/11988, global_step 10779 loss = 0.682341
+TRAIN  epoch 56  global_step 10804, NumFallos: 35902, error 0.4723
+TEST   epoch 56  global_step 10804, NumFallos: 11023, error 0.4597
+2.03% epoch   57, iter   8439/11988, global_step 10808 loss = 0.688808
+21.62% epoch   57, iter   8468/11988, global_step 10837 loss = 0.698759
+41.22% epoch   57, iter   8497/11988, global_step 10866 loss = 0.705333
+60.81% epoch   57, iter   8526/11988, global_step 10895 loss = 0.692242
+80.41% epoch   57, iter   8555/11988, global_step 10924 loss = 0.688662
+0.00% epoch   58, iter   8584/11988, global_step 10953 loss = 0.701941
+19.59% epoch   58, iter   8613/11988, global_step 10982 loss = 0.697490
+39.19% epoch   58, iter   8642/11988, global_step 11011 loss = 0.690345
+58.78% epoch   58, iter   8671/11988, global_step 11040 loss = 0.692998
+78.38% epoch   58, iter   8700/11988, global_step 11069 loss = 0.695430
+97.97% epoch   58, iter   8729/11988, global_step 11098 loss = 0.693446
+17.57% epoch   59, iter   8758/11988, global_step 11127 loss = 0.690169
+37.16% epoch   59, iter   8787/11988, global_step 11156 loss = 0.701238
+56.76% epoch   59, iter   8816/11988, global_step 11185 loss = 0.681843
+76.35% epoch   59, iter   8845/11988, global_step 11214 loss = 0.708265
+95.95% epoch   59, iter   8874/11988, global_step 11243 loss = 0.707494
+15.54% epoch   60, iter   8903/11988, global_step 11272 loss = 0.701572
+35.14% epoch   60, iter   8932/11988, global_step 11301 loss = 0.704126
+54.73% epoch   60, iter   8961/11988, global_step 11330 loss = 0.701346
+74.32% epoch   60, iter   8990/11988, global_step 11359 loss = 0.702285
+93.92% epoch   60, iter   9019/11988, global_step 11388 loss = 0.691506
+TRAIN  epoch 60  global_step 11396, NumFallos: 35778, error 0.4706
+TEST   epoch 60  global_step 11396, NumFallos: 10981, error 0.4580
+13.51% epoch   61, iter   9048/11988, global_step 11417 loss = 0.693897
+33.11% epoch   61, iter   9077/11988, global_step 11446 loss = 0.681411
+52.70% epoch   61, iter   9106/11988, global_step 11475 loss = 0.686149
+72.30% epoch   61, iter   9135/11988, global_step 11504 loss = 0.696712
+91.89% epoch   61, iter   9164/11988, global_step 11533 loss = 0.719338
+11.49% epoch   62, iter   9193/11988, global_step 11562 loss = 0.693503
+31.08% epoch   62, iter   9222/11988, global_step 11591 loss = 0.697284
+50.68% epoch   62, iter   9251/11988, global_step 11620 loss = 0.699906
+70.27% epoch   62, iter   9280/11988, global_step 11649 loss = 0.701872
+89.86% epoch   62, iter   9309/11988, global_step 11678 loss = 0.703130
+9.46% epoch   63, iter   9338/11988, global_step 11707 loss = 0.689209
+29.05% epoch   63, iter   9367/11988, global_step 11736 loss = 0.680986
+48.65% epoch   63, iter   9396/11988, global_step 11765 loss = 0.701410
+68.24% epoch   63, iter   9425/11988, global_step 11794 loss = 0.694764
+87.84% epoch   63, iter   9454/11988, global_step 11823 loss = 0.697367
+7.43% epoch   64, iter   9483/11988, global_step 11852 loss = 0.697064
+27.03% epoch   64, iter   9512/11988, global_step 11881 loss = 0.701349
+46.62% epoch   64, iter   9541/11988, global_step 11910 loss = 0.694966
+66.22% epoch   64, iter   9570/11988, global_step 11939 loss = 0.690463
+85.81% epoch   64, iter   9599/11988, global_step 11968 loss = 0.700153
+TRAIN  epoch 64  global_step 11988, NumFallos: 35707, error 0.4697
+TEST   epoch 64  global_step 11988, NumFallos: 10937, error 0.4561
+5.41% epoch   65, iter   9628/11988, global_step 11997 loss = 0.687245
+25.00% epoch   65, iter   9657/11988, global_step 12026 loss = 0.684951
+44.59% epoch   65, iter   9686/11988, global_step 12055 loss = 0.701658
+64.19% epoch   65, iter   9715/11988, global_step 12084 loss = 0.701860
+83.78% epoch   65, iter   9744/11988, global_step 12113 loss = 0.697884
+3.38% epoch   66, iter   9773/11988, global_step 12142 loss = 0.697901
+22.97% epoch   66, iter   9802/11988, global_step 12171 loss = 0.690193
+42.57% epoch   66, iter   9831/11988, global_step 12200 loss = 0.692645
+62.16% epoch   66, iter   9860/11988, global_step 12229 loss = 0.714855
+81.76% epoch   66, iter   9889/11988, global_step 12258 loss = 0.691389
+1.35% epoch   67, iter   9918/11988, global_step 12287 loss = 0.683902
+20.95% epoch   67, iter   9947/11988, global_step 12316 loss = 0.687578
+40.54% epoch   67, iter   9976/11988, global_step 12345 loss = 0.687085
+60.14% epoch   67, iter  10005/11988, global_step 12374 loss = 0.701492
+79.73% epoch   67, iter  10034/11988, global_step 12403 loss = 0.690013
+99.32% epoch   67, iter  10063/11988, global_step 12432 loss = 0.699866
+18.92% epoch   68, iter  10092/11988, global_step 12461 loss = 0.685179
+38.51% epoch   68, iter  10121/11988, global_step 12490 loss = 0.695224
+58.11% epoch   68, iter  10150/11988, global_step 12519 loss = 0.717490
+77.70% epoch   68, iter  10179/11988, global_step 12548 loss = 0.695460
+97.30% epoch   68, iter  10208/11988, global_step 12577 loss = 0.694702
+TRAIN  epoch 68  global_step 12580, NumFallos: 35563, error 0.4678
+TEST   epoch 68  global_step 12580, NumFallos: 10888, error 0.4541
+16.89% epoch   69, iter  10237/11988, global_step 12606 loss = 0.700897
+36.49% epoch   69, iter  10266/11988, global_step 12635 loss = 0.684936
+56.08% epoch   69, iter  10295/11988, global_step 12664 loss = 0.700426
+75.68% epoch   69, iter  10324/11988, global_step 12693 loss = 0.691064
+95.27% epoch   69, iter  10353/11988, global_step 12722 loss = 0.687277
+14.86% epoch   70, iter  10382/11988, global_step 12751 loss = 0.694136
+34.46% epoch   70, iter  10411/11988, global_step 12780 loss = 0.691489
+54.05% epoch   70, iter  10440/11988, global_step 12809 loss = 0.702463
+73.65% epoch   70, iter  10469/11988, global_step 12838 loss = 0.687516
+93.24% epoch   70, iter  10498/11988, global_step 12867 loss = 0.695630
+12.84% epoch   71, iter  10527/11988, global_step 12896 loss = 0.691221
+32.43% epoch   71, iter  10556/11988, global_step 12925 loss = 0.681725
+52.03% epoch   71, iter  10585/11988, global_step 12954 loss = 0.691282
+71.62% epoch   71, iter  10614/11988, global_step 12983 loss = 0.702383
+91.22% epoch   71, iter  10643/11988, global_step 13012 loss = 0.690788
+10.81% epoch   72, iter  10672/11988, global_step 13041 loss = 0.690739
+30.41% epoch   72, iter  10701/11988, global_step 13070 loss = 0.678315
+50.00% epoch   72, iter  10730/11988, global_step 13099 loss = 0.684663
+69.59% epoch   72, iter  10759/11988, global_step 13128 loss = 0.697147
+89.19% epoch   72, iter  10788/11988, global_step 13157 loss = 0.704517
+TRAIN  epoch 72  global_step 13172, NumFallos: 35454, error 0.4664
+TEST   epoch 72  global_step 13172, NumFallos: 10844, error 0.4522
+8.78% epoch   73, iter  10817/11988, global_step 13186 loss = 0.701759
+28.38% epoch   73, iter  10846/11988, global_step 13215 loss = 0.694540
+47.97% epoch   73, iter  10875/11988, global_step 13244 loss = 0.704434
+67.57% epoch   73, iter  10904/11988, global_step 13273 loss = 0.699065
+87.16% epoch   73, iter  10933/11988, global_step 13302 loss = 0.695993
+6.76% epoch   74, iter  10962/11988, global_step 13331 loss = 0.685805
+26.35% epoch   74, iter  10991/11988, global_step 13360 loss = 0.688745
+45.95% epoch   74, iter  11020/11988, global_step 13389 loss = 0.703172
+65.54% epoch   74, iter  11049/11988, global_step 13418 loss = 0.699509
+85.14% epoch   74, iter  11078/11988, global_step 13447 loss = 0.688811
+4.73% epoch   75, iter  11107/11988, global_step 13476 loss = 0.710430
+24.32% epoch   75, iter  11136/11988, global_step 13505 loss = 0.682997
+43.92% epoch   75, iter  11165/11988, global_step 13534 loss = 0.703908
+63.51% epoch   75, iter  11194/11988, global_step 13563 loss = 0.694713
+83.11% epoch   75, iter  11223/11988, global_step 13592 loss = 0.679575
+2.70% epoch   76, iter  11252/11988, global_step 13621 loss = 0.683392
+22.30% epoch   76, iter  11281/11988, global_step 13650 loss = 0.683053
+41.89% epoch   76, iter  11310/11988, global_step 13679 loss = 0.685393
+61.49% epoch   76, iter  11339/11988, global_step 13708 loss = 0.695813
+81.08% epoch   76, iter  11368/11988, global_step 13737 loss = 0.685161
+TRAIN  epoch 76  global_step 13764, NumFallos: 35358, error 0.4651
+TEST   epoch 76  global_step 13764, NumFallos: 10779, error 0.4495
+0.68% epoch   77, iter  11397/11988, global_step 13766 loss = 0.691853
+20.27% epoch   77, iter  11426/11988, global_step 13795 loss = 0.697070
+39.86% epoch   77, iter  11455/11988, global_step 13824 loss = 0.691580
+59.46% epoch   77, iter  11484/11988, global_step 13853 loss = 0.705187
+79.05% epoch   77, iter  11513/11988, global_step 13882 loss = 0.687888
+98.65% epoch   77, iter  11542/11988, global_step 13911 loss = 0.687746
+18.24% epoch   78, iter  11571/11988, global_step 13940 loss = 0.685793
+37.84% epoch   78, iter  11600/11988, global_step 13969 loss = 0.693000
+57.43% epoch   78, iter  11629/11988, global_step 13998 loss = 0.690614
+77.03% epoch   78, iter  11658/11988, global_step 14027 loss = 0.693520
+96.62% epoch   78, iter  11687/11988, global_step 14056 loss = 0.701090
+16.22% epoch   79, iter  11716/11988, global_step 14085 loss = 0.682899
+35.81% epoch   79, iter  11745/11988, global_step 14114 loss = 0.686890
+55.41% epoch   79, iter  11774/11988, global_step 14143 loss = 0.695260
+75.00% epoch   79, iter  11803/11988, global_step 14172 loss = 0.689033
+94.59% epoch   79, iter  11832/11988, global_step 14201 loss = 0.681749
+14.19% epoch   80, iter  11861/11988, global_step 14230 loss = 0.687589
+33.78% epoch   80, iter  11890/11988, global_step 14259 loss = 0.690306
+53.38% epoch   80, iter  11919/11988, global_step 14288 loss = 0.700588
+72.97% epoch   80, iter  11948/11988, global_step 14317 loss = 0.687658
+92.57% epoch   80, iter  11977/11988, global_step 14346 loss = 0.687259
+TRAIN  epoch 80  global_step 14356, NumFallos: 35274, error 0.4640
+TEST   epoch 80  global_step 14356, NumFallos: 10757, error 0.4486
+
+Process finished with exit code 0
+/Users/jdiez/venv_TF/bin/python /Users/jdiez/PycharmProjects/OutBrainOtrosCjtos/ML100K_Learning_WV.py
+________________________________________________________
+
+TRABAJANDO CON ML100K
+________________________________________________________
+va a cargar...
+(76022, 44)
+(23978, 44)
+No gusta en test: 43.16873800984236
+Gusta en test: 56.83126199015764
+2020-12-30 11:11:29.020195: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-30 11:11:29.037888: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7f97fe097ef0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-30 11:11:29.037901: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+0.00% epoch    0, iter      0/11988, global_step 14357 loss = 0.698495
+19.59% epoch    0, iter     29/11988, global_step 14386 loss = 0.690617
+39.19% epoch    0, iter     58/11988, global_step 14415 loss = 0.687126
+58.78% epoch    0, iter     87/11988, global_step 14444 loss = 0.688477
+78.38% epoch    0, iter    116/11988, global_step 14473 loss = 0.692283
+97.97% epoch    0, iter    145/11988, global_step 14502 loss = 0.688610
+TRAIN  epoch 0  global_step 14504, NumFallos: 35265, error 0.4639
+TEST   epoch 0  global_step 14504, NumFallos: 10753, error 0.4485
+17.57% epoch    1, iter    174/11988, global_step 14531 loss = 0.686843
+37.16% epoch    1, iter    203/11988, global_step 14560 loss = 0.696120
+56.76% epoch    1, iter    232/11988, global_step 14589 loss = 0.679322
+76.35% epoch    1, iter    261/11988, global_step 14618 loss = 0.703164
+95.95% epoch    1, iter    290/11988, global_step 14647 loss = 0.703749
+15.54% epoch    2, iter    319/11988, global_step 14676 loss = 0.695252
+35.14% epoch    2, iter    348/11988, global_step 14705 loss = 0.697487
+54.73% epoch    2, iter    377/11988, global_step 14734 loss = 0.695841
+74.32% epoch    2, iter    406/11988, global_step 14763 loss = 0.697240
+93.92% epoch    2, iter    435/11988, global_step 14792 loss = 0.687064
+13.51% epoch    3, iter    464/11988, global_step 14821 loss = 0.688751
+33.11% epoch    3, iter    493/11988, global_step 14850 loss = 0.679315
+52.70% epoch    3, iter    522/11988, global_step 14879 loss = 0.682396
+72.30% epoch    3, iter    551/11988, global_step 14908 loss = 0.692193
+91.89% epoch    3, iter    580/11988, global_step 14937 loss = 0.713510
+11.49% epoch    4, iter    609/11988, global_step 14966 loss = 0.689756
+31.08% epoch    4, iter    638/11988, global_step 14995 loss = 0.692472
+50.68% epoch    4, iter    667/11988, global_step 15024 loss = 0.696189
+70.27% epoch    4, iter    696/11988, global_step 15053 loss = 0.698308
+89.86% epoch    4, iter    725/11988, global_step 15082 loss = 0.696683
+TRAIN  epoch 4  global_step 15096, NumFallos: 35167, error 0.4626
+TEST   epoch 4  global_step 15096, NumFallos: 10737, error 0.4478
+WARNING:tensorflow:From /Users/jdiez/venv_TF/lib/python3.8/site-packages/tensorflow/python/training/saver.py:969: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+9.46% epoch    5, iter    754/11988, global_step 15111 loss = 0.685836
+29.05% epoch    5, iter    783/11988, global_step 15140 loss = 0.677530
+48.65% epoch    5, iter    812/11988, global_step 15169 loss = 0.696227
+68.24% epoch    5, iter    841/11988, global_step 15198 loss = 0.693162
+87.84% epoch    5, iter    870/11988, global_step 15227 loss = 0.693390
+7.43% epoch    6, iter    899/11988, global_step 15256 loss = 0.692848
+27.03% epoch    6, iter    928/11988, global_step 15285 loss = 0.696593
+46.62% epoch    6, iter    957/11988, global_step 15314 loss = 0.693743
+66.22% epoch    6, iter    986/11988, global_step 15343 loss = 0.687823
+85.81% epoch    6, iter   1015/11988, global_step 15372 loss = 0.695813
+5.41% epoch    7, iter   1044/11988, global_step 15401 loss = 0.682473
+25.00% epoch    7, iter   1073/11988, global_step 15430 loss = 0.680964
+44.59% epoch    7, iter   1102/11988, global_step 15459 loss = 0.696513
+64.19% epoch    7, iter   1131/11988, global_step 15488 loss = 0.697322
+83.78% epoch    7, iter   1160/11988, global_step 15517 loss = 0.692518
+3.38% epoch    8, iter   1189/11988, global_step 15546 loss = 0.693885
+22.97% epoch    8, iter   1218/11988, global_step 15575 loss = 0.686955
+42.57% epoch    8, iter   1247/11988, global_step 15604 loss = 0.688161
+62.16% epoch    8, iter   1276/11988, global_step 15633 loss = 0.708543
+81.76% epoch    8, iter   1305/11988, global_step 15662 loss = 0.687987
+TRAIN  epoch 8  global_step 15688, NumFallos: 35088, error 0.4616
+TEST   epoch 8  global_step 15688, NumFallos: 10721, error 0.4471
+1.35% epoch    9, iter   1334/11988, global_step 15691 loss = 0.681612
+20.95% epoch    9, iter   1363/11988, global_step 15720 loss = 0.684336
+40.54% epoch    9, iter   1392/11988, global_step 15749 loss = 0.683447
+60.14% epoch    9, iter   1421/11988, global_step 15778 loss = 0.697173
+79.73% epoch    9, iter   1450/11988, global_step 15807 loss = 0.686970
+99.32% epoch    9, iter   1479/11988, global_step 15836 loss = 0.695567
+18.92% epoch   10, iter   1508/11988, global_step 15865 loss = 0.681766
+38.51% epoch   10, iter   1537/11988, global_step 15894 loss = 0.691912
+58.11% epoch   10, iter   1566/11988, global_step 15923 loss = 0.712879
+77.70% epoch   10, iter   1595/11988, global_step 15952 loss = 0.691356
+97.30% epoch   10, iter   1624/11988, global_step 15981 loss = 0.690411
+16.89% epoch   11, iter   1653/11988, global_step 16010 loss = 0.696549
+36.49% epoch   11, iter   1682/11988, global_step 16039 loss = 0.681636
+56.08% epoch   11, iter   1711/11988, global_step 16068 loss = 0.697168
+75.68% epoch   11, iter   1740/11988, global_step 16097 loss = 0.687681
+95.27% epoch   11, iter   1769/11988, global_step 16126 loss = 0.685406
+14.86% epoch   12, iter   1798/11988, global_step 16155 loss = 0.688152
+34.46% epoch   12, iter   1827/11988, global_step 16184 loss = 0.689488
+54.05% epoch   12, iter   1856/11988, global_step 16213 loss = 0.697361
+73.65% epoch   12, iter   1885/11988, global_step 16242 loss = 0.682034
+93.24% epoch   12, iter   1914/11988, global_step 16271 loss = 0.693186
+TRAIN  epoch 12  global_step 16280, NumFallos: 35019, error 0.4606
+TEST   epoch 12  global_step 16280, NumFallos: 10680, error 0.4454
+12.84% epoch   13, iter   1943/11988, global_step 16300 loss = 0.687808
+32.43% epoch   13, iter   1972/11988, global_step 16329 loss = 0.678032
+52.03% epoch   13, iter   2001/11988, global_step 16358 loss = 0.686684
+71.62% epoch   13, iter   2030/11988, global_step 16387 loss = 0.698819
+91.22% epoch   13, iter   2059/11988, global_step 16416 loss = 0.689101
+10.81% epoch   14, iter   2088/11988, global_step 16445 loss = 0.687435
+30.41% epoch   14, iter   2117/11988, global_step 16474 loss = 0.675286
+50.00% epoch   14, iter   2146/11988, global_step 16503 loss = 0.682437
+69.59% epoch   14, iter   2175/11988, global_step 16532 loss = 0.693038
+89.19% epoch   14, iter   2204/11988, global_step 16561 loss = 0.702336
+8.78% epoch   15, iter   2233/11988, global_step 16590 loss = 0.697770
+28.38% epoch   15, iter   2262/11988, global_step 16619 loss = 0.691079
+47.97% epoch   15, iter   2291/11988, global_step 16648 loss = 0.700901
+67.57% epoch   15, iter   2320/11988, global_step 16677 loss = 0.694606
+87.16% epoch   15, iter   2349/11988, global_step 16706 loss = 0.690205
+6.76% epoch   16, iter   2378/11988, global_step 16735 loss = 0.683231
+26.35% epoch   16, iter   2407/11988, global_step 16764 loss = 0.684387
+45.95% epoch   16, iter   2436/11988, global_step 16793 loss = 0.699942
+65.54% epoch   16, iter   2465/11988, global_step 16822 loss = 0.696382
+85.14% epoch   16, iter   2494/11988, global_step 16851 loss = 0.686667
+TRAIN  epoch 16  global_step 16872, NumFallos: 34975, error 0.4601
+TEST   epoch 16  global_step 16872, NumFallos: 10680, error 0.4454
+4.73% epoch   17, iter   2523/11988, global_step 16880 loss = 0.707329
+24.32% epoch   17, iter   2552/11988, global_step 16909 loss = 0.680196
+43.92% epoch   17, iter   2581/11988, global_step 16938 loss = 0.700704
+63.51% epoch   17, iter   2610/11988, global_step 16967 loss = 0.691476
+83.11% epoch   17, iter   2639/11988, global_step 16996 loss = 0.676773
+2.70% epoch   18, iter   2668/11988, global_step 17025 loss = 0.680991
+22.30% epoch   18, iter   2697/11988, global_step 17054 loss = 0.679819
+41.89% epoch   18, iter   2726/11988, global_step 17083 loss = 0.682067
+61.49% epoch   18, iter   2755/11988, global_step 17112 loss = 0.692437
+81.08% epoch   18, iter   2784/11988, global_step 17141 loss = 0.681002
+0.68% epoch   19, iter   2813/11988, global_step 17170 loss = 0.689224
+20.27% epoch   19, iter   2842/11988, global_step 17199 loss = 0.693673
+39.86% epoch   19, iter   2871/11988, global_step 17228 loss = 0.686869
+59.46% epoch   19, iter   2900/11988, global_step 17257 loss = 0.701708
+79.05% epoch   19, iter   2929/11988, global_step 17286 loss = 0.686457
+98.65% epoch   19, iter   2958/11988, global_step 17315 loss = 0.685023
+18.24% epoch   20, iter   2987/11988, global_step 17344 loss = 0.683984
+37.84% epoch   20, iter   3016/11988, global_step 17373 loss = 0.690612
+57.43% epoch   20, iter   3045/11988, global_step 17402 loss = 0.687428
+77.03% epoch   20, iter   3074/11988, global_step 17431 loss = 0.690424
+96.62% epoch   20, iter   3103/11988, global_step 17460 loss = 0.696628
+TRAIN  epoch 20  global_step 17464, NumFallos: 34900, error 0.4591
+TEST   epoch 20  global_step 17464, NumFallos: 10664, error 0.4447
+16.22% epoch   21, iter   3132/11988, global_step 17489 loss = 0.680370
+35.81% epoch   21, iter   3161/11988, global_step 17518 loss = 0.686040
+55.41% epoch   21, iter   3190/11988, global_step 17547 loss = 0.692029
+75.00% epoch   21, iter   3219/11988, global_step 17576 loss = 0.685072
+94.59% epoch   21, iter   3248/11988, global_step 17605 loss = 0.678535
+14.19% epoch   22, iter   3277/11988, global_step 17634 loss = 0.683606
+33.78% epoch   22, iter   3306/11988, global_step 17663 loss = 0.686670
+53.38% epoch   22, iter   3335/11988, global_step 17692 loss = 0.696948
+72.97% epoch   22, iter   3364/11988, global_step 17721 loss = 0.683547
+92.57% epoch   22, iter   3393/11988, global_step 17750 loss = 0.684703
+12.16% epoch   23, iter   3422/11988, global_step 17779 loss = 0.666621
+31.76% epoch   23, iter   3451/11988, global_step 17808 loss = 0.698223
+51.35% epoch   23, iter   3480/11988, global_step 17837 loss = 0.693216
+70.95% epoch   23, iter   3509/11988, global_step 17866 loss = 0.692143
+90.54% epoch   23, iter   3538/11988, global_step 17895 loss = 0.698450
+10.14% epoch   24, iter   3567/11988, global_step 17924 loss = 0.678267
+29.73% epoch   24, iter   3596/11988, global_step 17953 loss = 0.692721
+49.32% epoch   24, iter   3625/11988, global_step 17982 loss = 0.684058
+68.92% epoch   24, iter   3654/11988, global_step 18011 loss = 0.699725
+88.51% epoch   24, iter   3683/11988, global_step 18040 loss = 0.702110
+TRAIN  epoch 24  global_step 18056, NumFallos: 34843, error 0.4583
+TEST   epoch 24  global_step 18056, NumFallos: 10641, error 0.4438
+8.11% epoch   25, iter   3712/11988, global_step 18069 loss = 0.687221
+27.70% epoch   25, iter   3741/11988, global_step 18098 loss = 0.691996
+47.30% epoch   25, iter   3770/11988, global_step 18127 loss = 0.690433
+66.89% epoch   25, iter   3799/11988, global_step 18156 loss = 0.693832
+86.49% epoch   25, iter   3828/11988, global_step 18185 loss = 0.676048
+6.08% epoch   26, iter   3857/11988, global_step 18214 loss = 0.691988
+25.68% epoch   26, iter   3886/11988, global_step 18243 loss = 0.683980
+45.27% epoch   26, iter   3915/11988, global_step 18272 loss = 0.692964
+64.86% epoch   26, iter   3944/11988, global_step 18301 loss = 0.687539
+84.46% epoch   26, iter   3973/11988, global_step 18330 loss = 0.692823
+4.05% epoch   27, iter   4002/11988, global_step 18359 loss = 0.697913
+23.65% epoch   27, iter   4031/11988, global_step 18388 loss = 0.693042
+43.24% epoch   27, iter   4060/11988, global_step 18417 loss = 0.689475
+62.84% epoch   27, iter   4089/11988, global_step 18446 loss = 0.678422
+82.43% epoch   27, iter   4118/11988, global_step 18475 loss = 0.676070
+2.03% epoch   28, iter   4147/11988, global_step 18504 loss = 0.682876
+21.62% epoch   28, iter   4176/11988, global_step 18533 loss = 0.692534
+41.22% epoch   28, iter   4205/11988, global_step 18562 loss = 0.692262
+60.81% epoch   28, iter   4234/11988, global_step 18591 loss = 0.683757
+80.41% epoch   28, iter   4263/11988, global_step 18620 loss = 0.681400
+TRAIN  epoch 28  global_step 18648, NumFallos: 34779, error 0.4575
+TEST   epoch 28  global_step 18648, NumFallos: 10623, error 0.4430
+0.00% epoch   29, iter   4292/11988, global_step 18649 loss = 0.695468
+19.59% epoch   29, iter   4321/11988, global_step 18678 loss = 0.684028
+39.19% epoch   29, iter   4350/11988, global_step 18707 loss = 0.684514
+58.78% epoch   29, iter   4379/11988, global_step 18736 loss = 0.684281
+78.38% epoch   29, iter   4408/11988, global_step 18765 loss = 0.689674
+97.97% epoch   29, iter   4437/11988, global_step 18794 loss = 0.684321
+17.57% epoch   30, iter   4466/11988, global_step 18823 loss = 0.683767
+37.16% epoch   30, iter   4495/11988, global_step 18852 loss = 0.691530
+56.76% epoch   30, iter   4524/11988, global_step 18881 loss = 0.677350
+76.35% epoch   30, iter   4553/11988, global_step 18910 loss = 0.698156
+95.95% epoch   30, iter   4582/11988, global_step 18939 loss = 0.700622
+15.54% epoch   31, iter   4611/11988, global_step 18968 loss = 0.689337
+35.14% epoch   31, iter   4640/11988, global_step 18997 loss = 0.690938
+54.73% epoch   31, iter   4669/11988, global_step 19026 loss = 0.690659
+74.32% epoch   31, iter   4698/11988, global_step 19055 loss = 0.692764
+93.92% epoch   31, iter   4727/11988, global_step 19084 loss = 0.682684
+13.51% epoch   32, iter   4756/11988, global_step 19113 loss = 0.683588
+33.11% epoch   32, iter   4785/11988, global_step 19142 loss = 0.677555
+52.70% epoch   32, iter   4814/11988, global_step 19171 loss = 0.678934
+72.30% epoch   32, iter   4843/11988, global_step 19200 loss = 0.688199
+91.89% epoch   32, iter   4872/11988, global_step 19229 loss = 0.707778
+TRAIN  epoch 32  global_step 19240, NumFallos: 34667, error 0.4560
+TEST   epoch 32  global_step 19240, NumFallos: 10597, error 0.4419
+11.49% epoch   33, iter   4901/11988, global_step 19258 loss = 0.686379
+31.08% epoch   33, iter   4930/11988, global_step 19287 loss = 0.687709
+50.68% epoch   33, iter   4959/11988, global_step 19316 loss = 0.693225
+70.27% epoch   33, iter   4988/11988, global_step 19345 loss = 0.695502
+89.86% epoch   33, iter   5017/11988, global_step 19374 loss = 0.690780
+9.46% epoch   34, iter   5046/11988, global_step 19403 loss = 0.682815
+29.05% epoch   34, iter   5075/11988, global_step 19432 loss = 0.674444
+48.65% epoch   34, iter   5104/11988, global_step 19461 loss = 0.691718
+68.24% epoch   34, iter   5133/11988, global_step 19490 loss = 0.691996
+87.84% epoch   34, iter   5162/11988, global_step 19519 loss = 0.689946
+7.43% epoch   35, iter   5191/11988, global_step 19548 loss = 0.689104
+27.03% epoch   35, iter   5220/11988, global_step 19577 loss = 0.692196
+46.62% epoch   35, iter   5249/11988, global_step 19606 loss = 0.692915
+66.22% epoch   35, iter   5278/11988, global_step 19635 loss = 0.685521
+85.81% epoch   35, iter   5307/11988, global_step 19664 loss = 0.691911
+5.41% epoch   36, iter   5336/11988, global_step 19693 loss = 0.677884
+25.00% epoch   36, iter   5365/11988, global_step 19722 loss = 0.677579
+44.59% epoch   36, iter   5394/11988, global_step 19751 loss = 0.691795
+64.19% epoch   36, iter   5423/11988, global_step 19780 loss = 0.693192
+83.78% epoch   36, iter   5452/11988, global_step 19809 loss = 0.687460
+TRAIN  epoch 36  global_step 19832, NumFallos: 34571, error 0.4547
+TEST   epoch 36  global_step 19832, NumFallos: 10581, error 0.4413
+3.38% epoch   37, iter   5481/11988, global_step 19838 loss = 0.690174
+22.97% epoch   37, iter   5510/11988, global_step 19867 loss = 0.684099
+42.57% epoch   37, iter   5539/11988, global_step 19896 loss = 0.684007
+62.16% epoch   37, iter   5568/11988, global_step 19925 loss = 0.702964
+81.76% epoch   37, iter   5597/11988, global_step 19954 loss = 0.685167
+1.35% epoch   38, iter   5626/11988, global_step 19983 loss = 0.679834
+20.95% epoch   38, iter   5655/11988, global_step 20012 loss = 0.681378
+40.54% epoch   38, iter   5684/11988, global_step 20041 loss = 0.680125
+60.14% epoch   38, iter   5713/11988, global_step 20070 loss = 0.693004
+79.73% epoch   38, iter   5742/11988, global_step 20099 loss = 0.684301
+99.32% epoch   38, iter   5771/11988, global_step 20128 loss = 0.691539
+18.92% epoch   39, iter   5800/11988, global_step 20157 loss = 0.678923
+38.51% epoch   39, iter   5829/11988, global_step 20186 loss = 0.689288
+58.11% epoch   39, iter   5858/11988, global_step 20215 loss = 0.708478
+77.70% epoch   39, iter   5887/11988, global_step 20244 loss = 0.687625
+97.30% epoch   39, iter   5916/11988, global_step 20273 loss = 0.686550
+16.89% epoch   40, iter   5945/11988, global_step 20302 loss = 0.692328
+36.49% epoch   40, iter   5974/11988, global_step 20331 loss = 0.678737
+56.08% epoch   40, iter   6003/11988, global_step 20360 loss = 0.694166
+75.68% epoch   40, iter   6032/11988, global_step 20389 loss = 0.684622
+95.27% epoch   40, iter   6061/11988, global_step 20418 loss = 0.683844
+TRAIN  epoch 40  global_step 20424, NumFallos: 34517, error 0.4540
+TEST   epoch 40  global_step 20424, NumFallos: 10573, error 0.4409
+14.86% epoch   41, iter   6090/11988, global_step 20447 loss = 0.682220
+34.46% epoch   41, iter   6119/11988, global_step 20476 loss = 0.687737
+54.05% epoch   41, iter   6148/11988, global_step 20505 loss = 0.692706
+73.65% epoch   41, iter   6177/11988, global_step 20534 loss = 0.676767
+93.24% epoch   41, iter   6206/11988, global_step 20563 loss = 0.691072
+12.84% epoch   42, iter   6235/11988, global_step 20592 loss = 0.684893
+32.43% epoch   42, iter   6264/11988, global_step 20621 loss = 0.674391
+52.03% epoch   42, iter   6293/11988, global_step 20650 loss = 0.682401
+71.62% epoch   42, iter   6322/11988, global_step 20679 loss = 0.695461
+91.22% epoch   42, iter   6351/11988, global_step 20708 loss = 0.687678
+10.81% epoch   43, iter   6380/11988, global_step 20737 loss = 0.684443
+30.41% epoch   43, iter   6409/11988, global_step 20766 loss = 0.672440
+50.00% epoch   43, iter   6438/11988, global_step 20795 loss = 0.680273
+69.59% epoch   43, iter   6467/11988, global_step 20824 loss = 0.689027
+89.19% epoch   43, iter   6496/11988, global_step 20853 loss = 0.700453
+8.78% epoch   44, iter   6525/11988, global_step 20882 loss = 0.694417
+28.38% epoch   44, iter   6554/11988, global_step 20911 loss = 0.687863
+47.97% epoch   44, iter   6583/11988, global_step 20940 loss = 0.697269
+67.57% epoch   44, iter   6612/11988, global_step 20969 loss = 0.690393
+87.16% epoch   44, iter   6641/11988, global_step 20998 loss = 0.684531
+TRAIN  epoch 44  global_step 21016, NumFallos: 34409, error 0.4526
+TEST   epoch 44  global_step 21016, NumFallos: 10545, error 0.4398
+6.76% epoch   45, iter   6670/11988, global_step 21027 loss = 0.680975
+26.35% epoch   45, iter   6699/11988, global_step 21056 loss = 0.680349
+45.95% epoch   45, iter   6728/11988, global_step 21085 loss = 0.696886
+65.54% epoch   45, iter   6757/11988, global_step 21114 loss = 0.693389
+85.14% epoch   45, iter   6786/11988, global_step 21143 loss = 0.685041
+4.73% epoch   46, iter   6815/11988, global_step 21172 loss = 0.704475
+24.32% epoch   46, iter   6844/11988, global_step 21201 loss = 0.677576
+43.92% epoch   46, iter   6873/11988, global_step 21230 loss = 0.697878
+63.51% epoch   46, iter   6902/11988, global_step 21259 loss = 0.688347
+83.11% epoch   46, iter   6931/11988, global_step 21288 loss = 0.674157
+2.70% epoch   47, iter   6960/11988, global_step 21317 loss = 0.678728
+22.30% epoch   47, iter   6989/11988, global_step 21346 loss = 0.676946
+41.89% epoch   47, iter   7018/11988, global_step 21375 loss = 0.678943
+61.49% epoch   47, iter   7047/11988, global_step 21404 loss = 0.689385
+81.08% epoch   47, iter   7076/11988, global_step 21433 loss = 0.676947
+0.68% epoch   48, iter   7105/11988, global_step 21462 loss = 0.686831
+20.27% epoch   48, iter   7134/11988, global_step 21491 loss = 0.690452
+39.86% epoch   48, iter   7163/11988, global_step 21520 loss = 0.682257
+59.46% epoch   48, iter   7192/11988, global_step 21549 loss = 0.698462
+79.05% epoch   48, iter   7221/11988, global_step 21578 loss = 0.684909
+98.65% epoch   48, iter   7250/11988, global_step 21607 loss = 0.682545
+TRAIN  epoch 48  global_step 21608, NumFallos: 34333, error 0.4516
+TEST   epoch 48  global_step 21608, NumFallos: 10531, error 0.4392
+18.24% epoch   49, iter   7279/11988, global_step 21636 loss = 0.682258
+37.84% epoch   49, iter   7308/11988, global_step 21665 loss = 0.688511
+57.43% epoch   49, iter   7337/11988, global_step 21694 loss = 0.684521
+77.03% epoch   49, iter   7366/11988, global_step 21723 loss = 0.687708
+96.62% epoch   49, iter   7395/11988, global_step 21752 loss = 0.692286
+16.22% epoch   50, iter   7424/11988, global_step 21781 loss = 0.677991
+35.81% epoch   50, iter   7453/11988, global_step 21810 loss = 0.685552
+55.41% epoch   50, iter   7482/11988, global_step 21839 loss = 0.689027
+75.00% epoch   50, iter   7511/11988, global_step 21868 loss = 0.681283
+94.59% epoch   50, iter   7540/11988, global_step 21897 loss = 0.675689
+14.19% epoch   51, iter   7569/11988, global_step 21926 loss = 0.679831
+33.78% epoch   51, iter   7598/11988, global_step 21955 loss = 0.683361
+53.38% epoch   51, iter   7627/11988, global_step 21984 loss = 0.693409
+72.97% epoch   51, iter   7656/11988, global_step 22013 loss = 0.679640
+92.57% epoch   51, iter   7685/11988, global_step 22042 loss = 0.682325
+12.16% epoch   52, iter   7714/11988, global_step 22071 loss = 0.664424
+31.76% epoch   52, iter   7743/11988, global_step 22100 loss = 0.694375
+51.35% epoch   52, iter   7772/11988, global_step 22129 loss = 0.690626
+70.95% epoch   52, iter   7801/11988, global_step 22158 loss = 0.688000
+90.54% epoch   52, iter   7830/11988, global_step 22187 loss = 0.693889
+TRAIN  epoch 52  global_step 22200, NumFallos: 34272, error 0.4508
+TEST   epoch 52  global_step 22200, NumFallos: 10514, error 0.4385
+10.14% epoch   53, iter   7859/11988, global_step 22216 loss = 0.675563
+29.73% epoch   53, iter   7888/11988, global_step 22245 loss = 0.688846
+49.32% epoch   53, iter   7917/11988, global_step 22274 loss = 0.680576
+68.92% epoch   53, iter   7946/11988, global_step 22303 loss = 0.695109
+88.51% epoch   53, iter   7975/11988, global_step 22332 loss = 0.698849
+8.11% epoch   54, iter   8004/11988, global_step 22361 loss = 0.684668
+27.70% epoch   54, iter   8033/11988, global_step 22390 loss = 0.689353
+47.30% epoch   54, iter   8062/11988, global_step 22419 loss = 0.686597
+66.89% epoch   54, iter   8091/11988, global_step 22448 loss = 0.689472
+86.49% epoch   54, iter   8120/11988, global_step 22477 loss = 0.671617
+6.08% epoch   55, iter   8149/11988, global_step 22506 loss = 0.689691
+25.68% epoch   55, iter   8178/11988, global_step 22535 loss = 0.678237
+45.27% epoch   55, iter   8207/11988, global_step 22564 loss = 0.690115
+64.86% epoch   55, iter   8236/11988, global_step 22593 loss = 0.684814
+84.46% epoch   55, iter   8265/11988, global_step 22622 loss = 0.690479
+4.05% epoch   56, iter   8294/11988, global_step 22651 loss = 0.695789
+23.65% epoch   56, iter   8323/11988, global_step 22680 loss = 0.690276
+43.24% epoch   56, iter   8352/11988, global_step 22709 loss = 0.686843
+62.84% epoch   56, iter   8381/11988, global_step 22738 loss = 0.675023
+82.43% epoch   56, iter   8410/11988, global_step 22767 loss = 0.673998
+TRAIN  epoch 56  global_step 22792, NumFallos: 34206, error 0.4499
+TEST   epoch 56  global_step 22792, NumFallos: 10488, error 0.4374
+2.03% epoch   57, iter   8439/11988, global_step 22796 loss = 0.680584
+21.62% epoch   57, iter   8468/11988, global_step 22825 loss = 0.690381
+41.22% epoch   57, iter   8497/11988, global_step 22854 loss = 0.687666
+60.81% epoch   57, iter   8526/11988, global_step 22883 loss = 0.681199
+80.41% epoch   57, iter   8555/11988, global_step 22912 loss = 0.679095
+0.00% epoch   58, iter   8584/11988, global_step 22941 loss = 0.693413
+19.59% epoch   58, iter   8613/11988, global_step 22970 loss = 0.679135
+39.19% epoch   58, iter   8642/11988, global_step 22999 loss = 0.682821
+58.78% epoch   58, iter   8671/11988, global_step 23028 loss = 0.681228
+78.38% epoch   58, iter   8700/11988, global_step 23057 loss = 0.687976
+97.97% epoch   58, iter   8729/11988, global_step 23086 loss = 0.681386
+17.57% epoch   59, iter   8758/11988, global_step 23115 loss = 0.681462
+37.16% epoch   59, iter   8787/11988, global_step 23144 loss = 0.688306
+56.76% epoch   59, iter   8816/11988, global_step 23173 loss = 0.676177
+76.35% epoch   59, iter   8845/11988, global_step 23202 loss = 0.694229
+95.95% epoch   59, iter   8874/11988, global_step 23231 loss = 0.698620
+15.54% epoch   60, iter   8903/11988, global_step 23260 loss = 0.685005
+35.14% epoch   60, iter   8932/11988, global_step 23289 loss = 0.685880
+54.73% epoch   60, iter   8961/11988, global_step 23318 loss = 0.686853
+74.32% epoch   60, iter   8990/11988, global_step 23347 loss = 0.689648
+93.92% epoch   60, iter   9019/11988, global_step 23376 loss = 0.679208
+TRAIN  epoch 60  global_step 23384, NumFallos: 34153, error 0.4493
+TEST   epoch 60  global_step 23384, NumFallos: 10469, error 0.4366
+13.51% epoch   61, iter   9048/11988, global_step 23405 loss = 0.679504
+33.11% epoch   61, iter   9077/11988, global_step 23434 loss = 0.676393
+52.70% epoch   61, iter   9106/11988, global_step 23463 loss = 0.676395
+72.30% epoch   61, iter   9135/11988, global_step 23492 loss = 0.685447
+91.89% epoch   61, iter   9164/11988, global_step 23521 loss = 0.703349
+11.49% epoch   62, iter   9193/11988, global_step 23550 loss = 0.683976
+31.08% epoch   62, iter   9222/11988, global_step 23579 loss = 0.683947
+50.68% epoch   62, iter   9251/11988, global_step 23608 loss = 0.691364
+70.27% epoch   62, iter   9280/11988, global_step 23637 loss = 0.693824
+89.86% epoch   62, iter   9309/11988, global_step 23666 loss = 0.686551
+9.46% epoch   63, iter   9338/11988, global_step 23695 loss = 0.680659
+29.05% epoch   63, iter   9367/11988, global_step 23724 loss = 0.672265
+48.65% epoch   63, iter   9396/11988, global_step 23753 loss = 0.688658
+68.24% epoch   63, iter   9425/11988, global_step 23782 loss = 0.691306
+87.84% epoch   63, iter   9454/11988, global_step 23811 loss = 0.687615
+7.43% epoch   64, iter   9483/11988, global_step 23840 loss = 0.686504
+27.03% epoch   64, iter   9512/11988, global_step 23869 loss = 0.688998
+46.62% epoch   64, iter   9541/11988, global_step 23898 loss = 0.692380
+66.22% epoch   64, iter   9570/11988, global_step 23927 loss = 0.683938
+85.81% epoch   64, iter   9599/11988, global_step 23956 loss = 0.689175
+TRAIN  epoch 64  global_step 23976, NumFallos: 34108, error 0.4487
+TEST   epoch 64  global_step 23976, NumFallos: 10444, error 0.4356
+5.41% epoch   65, iter   9628/11988, global_step 23985 loss = 0.674438
+25.00% epoch   65, iter   9657/11988, global_step 24014 loss = 0.675325
+44.59% epoch   65, iter   9686/11988, global_step 24043 loss = 0.688345
+64.19% epoch   65, iter   9715/11988, global_step 24072 loss = 0.690201
+83.78% epoch   65, iter   9744/11988, global_step 24101 loss = 0.683704
+3.38% epoch   66, iter   9773/11988, global_step 24130 loss = 0.687477
+22.97% epoch   66, iter   9802/11988, global_step 24159 loss = 0.682144
+42.57% epoch   66, iter   9831/11988, global_step 24188 loss = 0.680961
+62.16% epoch   66, iter   9860/11988, global_step 24217 loss = 0.699096
+81.76% epoch   66, iter   9889/11988, global_step 24246 loss = 0.683330
+1.35% epoch   67, iter   9918/11988, global_step 24275 loss = 0.678762
+20.95% epoch   67, iter   9947/11988, global_step 24304 loss = 0.679212
+40.54% epoch   67, iter   9976/11988, global_step 24333 loss = 0.677680
+60.14% epoch   67, iter  10005/11988, global_step 24362 loss = 0.689844
+79.73% epoch   67, iter  10034/11988, global_step 24391 loss = 0.682444
+99.32% epoch   67, iter  10063/11988, global_step 24420 loss = 0.688552
+18.92% epoch   68, iter  10092/11988, global_step 24449 loss = 0.677079
+38.51% epoch   68, iter  10121/11988, global_step 24478 loss = 0.687643
+58.11% epoch   68, iter  10150/11988, global_step 24507 loss = 0.705086
+77.70% epoch   68, iter  10179/11988, global_step 24536 loss = 0.684984
+97.30% epoch   68, iter  10208/11988, global_step 24565 loss = 0.683807
+TRAIN  epoch 68  global_step 24568, NumFallos: 34114, error 0.4487
+TEST   epoch 68  global_step 24568, NumFallos: 10436, error 0.4352
+16.89% epoch   69, iter  10237/11988, global_step 24594 loss = 0.689058
+36.49% epoch   69, iter  10266/11988, global_step 24623 loss = 0.676719
+56.08% epoch   69, iter  10295/11988, global_step 24652 loss = 0.691972
+75.68% epoch   69, iter  10324/11988, global_step 24681 loss = 0.682398
+95.27% epoch   69, iter  10353/11988, global_step 24710 loss = 0.682766
+14.86% epoch   70, iter  10382/11988, global_step 24739 loss = 0.677601
+34.46% epoch   70, iter  10411/11988, global_step 24768 loss = 0.686439
+54.05% epoch   70, iter  10440/11988, global_step 24797 loss = 0.689346
+73.65% epoch   70, iter  10469/11988, global_step 24826 loss = 0.672797
+93.24% epoch   70, iter  10498/11988, global_step 24855 loss = 0.689579
+12.84% epoch   71, iter  10527/11988, global_step 24884 loss = 0.682943
+32.43% epoch   71, iter  10556/11988, global_step 24913 loss = 0.671554
+52.03% epoch   71, iter  10585/11988, global_step 24942 loss = 0.679211
+71.62% epoch   71, iter  10614/11988, global_step 24971 loss = 0.692902
+91.22% epoch   71, iter  10643/11988, global_step 25000 loss = 0.686687
+10.81% epoch   72, iter  10672/11988, global_step 25029 loss = 0.682328
+30.41% epoch   72, iter  10701/11988, global_step 25058 loss = 0.670337
+50.00% epoch   72, iter  10730/11988, global_step 25087 loss = 0.678477
+69.59% epoch   72, iter  10759/11988, global_step 25116 loss = 0.685892
+89.19% epoch   72, iter  10788/11988, global_step 25145 loss = 0.699098
+TRAIN  epoch 72  global_step 25160, NumFallos: 34077, error 0.4483
+TEST   epoch 72  global_step 25160, NumFallos: 10427, error 0.4349
+8.78% epoch   73, iter  10817/11988, global_step 25174 loss = 0.692258
+28.38% epoch   73, iter  10846/11988, global_step 25203 loss = 0.685513
+47.97% epoch   73, iter  10875/11988, global_step 25232 loss = 0.694260
+67.57% epoch   73, iter  10904/11988, global_step 25261 loss = 0.687223
+87.16% epoch   73, iter  10933/11988, global_step 25290 loss = 0.680130
+6.76% epoch   74, iter  10962/11988, global_step 25319 loss = 0.679373
+26.35% epoch   74, iter  10991/11988, global_step 25348 loss = 0.677404
+45.95% epoch   74, iter  11020/11988, global_step 25377 loss = 0.694535
+65.54% epoch   74, iter  11049/11988, global_step 25406 loss = 0.691048
+85.14% epoch   74, iter  11078/11988, global_step 25435 loss = 0.684096
+4.73% epoch   75, iter  11107/11988, global_step 25464 loss = 0.702358
+24.32% epoch   75, iter  11136/11988, global_step 25493 loss = 0.675603
+43.92% epoch   75, iter  11165/11988, global_step 25522 loss = 0.695889
+63.51% epoch   75, iter  11194/11988, global_step 25551 loss = 0.685939
+83.11% epoch   75, iter  11223/11988, global_step 25580 loss = 0.672227
+2.70% epoch   76, iter  11252/11988, global_step 25609 loss = 0.677003
+22.30% epoch   76, iter  11281/11988, global_step 25638 loss = 0.674906
+41.89% epoch   76, iter  11310/11988, global_step 25667 loss = 0.676566
+61.49% epoch   76, iter  11339/11988, global_step 25696 loss = 0.687200
+81.08% epoch   76, iter  11368/11988, global_step 25725 loss = 0.673823
+TRAIN  epoch 76  global_step 25752, NumFallos: 34005, error 0.4473
+TEST   epoch 76  global_step 25752, NumFallos: 10412, error 0.4342
+0.68% epoch   77, iter  11397/11988, global_step 25754 loss = 0.685067
+20.27% epoch   77, iter  11426/11988, global_step 25783 loss = 0.688043
+39.86% epoch   77, iter  11455/11988, global_step 25812 loss = 0.678621
+59.46% epoch   77, iter  11484/11988, global_step 25841 loss = 0.696031
+79.05% epoch   77, iter  11513/11988, global_step 25870 loss = 0.683522
+98.65% epoch   77, iter  11542/11988, global_step 25899 loss = 0.680723
+18.24% epoch   78, iter  11571/11988, global_step 25928 loss = 0.680923
+37.84% epoch   78, iter  11600/11988, global_step 25957 loss = 0.687027
+57.43% epoch   78, iter  11629/11988, global_step 25986 loss = 0.682441
+77.03% epoch   78, iter  11658/11988, global_step 26015 loss = 0.685809
+96.62% epoch   78, iter  11687/11988, global_step 26044 loss = 0.688902
+16.22% epoch   79, iter  11716/11988, global_step 26073 loss = 0.676206
+35.81% epoch   79, iter  11745/11988, global_step 26102 loss = 0.685415
+55.41% epoch   79, iter  11774/11988, global_step 26131 loss = 0.686799
+75.00% epoch   79, iter  11803/11988, global_step 26160 loss = 0.678429
+94.59% epoch   79, iter  11832/11988, global_step 26189 loss = 0.673701
+14.19% epoch   80, iter  11861/11988, global_step 26218 loss = 0.676980
+33.78% epoch   80, iter  11890/11988, global_step 26247 loss = 0.681012
+53.38% epoch   80, iter  11919/11988, global_step 26276 loss = 0.690662
+72.97% epoch   80, iter  11948/11988, global_step 26305 loss = 0.676684
+92.57% epoch   80, iter  11977/11988, global_step 26334 loss = 0.680506
+TRAIN  epoch 80  global_step 26344, NumFallos: 33982, error 0.4470
+TEST   epoch 80  global_step 26344, NumFallos: 10396, error 0.4336
+
+Process finished with exit code 0
+
+/Users/jdiez/venv_TF/bin/python /Users/jdiez/PycharmProjects/OutBrainOtrosCjtos/ML100K_Learning_WV.py
+________________________________________________________
+
+TRABAJANDO CON ML100K
+________________________________________________________
+va a cargar...
+(76022, 44)
+(23978, 44)
+No gusta en test: 43.16873800984236
+Gusta en test: 56.83126199015764
+2020-12-30 11:13:30.311927: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-30 11:13:30.327579: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fbf95a53ec0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-30 11:13:30.327595: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+0.00% epoch    0, iter      0/11988, global_step 26345 loss = 0.692237
+19.59% epoch    0, iter     29/11988, global_step 26374 loss = 0.675804
+39.19% epoch    0, iter     58/11988, global_step 26403 loss = 0.681965
+58.78% epoch    0, iter     87/11988, global_step 26432 loss = 0.679091
+78.38% epoch    0, iter    116/11988, global_step 26461 loss = 0.686881
+97.97% epoch    0, iter    145/11988, global_step 26490 loss = 0.679176
+TRAIN  epoch 0  global_step 26492, NumFallos: 33884, error 0.4457
+TEST   epoch 0  global_step 26492, NumFallos: 10381, error 0.4329
+17.57% epoch    1, iter    174/11988, global_step 26519 loss = 0.679405
+37.16% epoch    1, iter    203/11988, global_step 26548 loss = 0.685641
+56.76% epoch    1, iter    232/11988, global_step 26577 loss = 0.675376
+76.35% epoch    1, iter    261/11988, global_step 26606 loss = 0.690223
+95.95% epoch    1, iter    290/11988, global_step 26635 loss = 0.696917
+15.54% epoch    2, iter    319/11988, global_step 26664 loss = 0.680602
+35.14% epoch    2, iter    348/11988, global_step 26693 loss = 0.680076
+54.73% epoch    2, iter    377/11988, global_step 26722 loss = 0.682720
+74.32% epoch    2, iter    406/11988, global_step 26751 loss = 0.686352
+93.92% epoch    2, iter    435/11988, global_step 26780 loss = 0.674646
+13.51% epoch    3, iter    464/11988, global_step 26809 loss = 0.674084
+33.11% epoch    3, iter    493/11988, global_step 26838 loss = 0.675227
+52.70% epoch    3, iter    522/11988, global_step 26867 loss = 0.673208
+72.30% epoch    3, iter    551/11988, global_step 26896 loss = 0.682179
+91.89% epoch    3, iter    580/11988, global_step 26925 loss = 0.697124
+11.49% epoch    4, iter    609/11988, global_step 26954 loss = 0.680675
+31.08% epoch    4, iter    638/11988, global_step 26983 loss = 0.677983
+50.68% epoch    4, iter    667/11988, global_step 27012 loss = 0.689332
+70.27% epoch    4, iter    696/11988, global_step 27041 loss = 0.692121
+89.86% epoch    4, iter    725/11988, global_step 27070 loss = 0.680436
+TRAIN  epoch 4  global_step 27084, NumFallos: 33366, error 0.4389
+TEST   epoch 4  global_step 27084, NumFallos: 10240, error 0.4271
+WARNING:tensorflow:From /Users/jdiez/venv_TF/lib/python3.8/site-packages/tensorflow/python/training/saver.py:969: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+9.46% epoch    5, iter    754/11988, global_step 27099 loss = 0.677284
+29.05% epoch    5, iter    783/11988, global_step 27128 loss = 0.668974
+48.65% epoch    5, iter    812/11988, global_step 27157 loss = 0.684425
+68.24% epoch    5, iter    841/11988, global_step 27186 loss = 0.690428
+87.84% epoch    5, iter    870/11988, global_step 27215 loss = 0.684229
+7.43% epoch    6, iter    899/11988, global_step 27244 loss = 0.682457
+27.03% epoch    6, iter    928/11988, global_step 27273 loss = 0.683621
+46.62% epoch    6, iter    957/11988, global_step 27302 loss = 0.691232
+66.22% epoch    6, iter    986/11988, global_step 27331 loss = 0.681462
+85.81% epoch    6, iter   1015/11988, global_step 27360 loss = 0.684702
+5.41% epoch    7, iter   1044/11988, global_step 27389 loss = 0.668195
+25.00% epoch    7, iter   1073/11988, global_step 27418 loss = 0.671772
+44.59% epoch    7, iter   1102/11988, global_step 27447 loss = 0.681814
+64.19% epoch    7, iter   1131/11988, global_step 27476 loss = 0.684510
+83.78% epoch    7, iter   1160/11988, global_step 27505 loss = 0.676543
+3.38% epoch    8, iter   1189/11988, global_step 27534 loss = 0.682301
+22.97% epoch    8, iter   1218/11988, global_step 27563 loss = 0.678835
+42.57% epoch    8, iter   1247/11988, global_step 27592 loss = 0.674911
+62.16% epoch    8, iter   1276/11988, global_step 27621 loss = 0.691999
+81.76% epoch    8, iter   1305/11988, global_step 27650 loss = 0.680096
+TRAIN  epoch 8  global_step 27676, NumFallos: 33058, error 0.4348
+TEST   epoch 8  global_step 27676, NumFallos: 10163, error 0.4238
+1.35% epoch    9, iter   1334/11988, global_step 27679 loss = 0.677115
+20.95% epoch    9, iter   1363/11988, global_step 27708 loss = 0.674543
+40.54% epoch    9, iter   1392/11988, global_step 27737 loss = 0.672345
+60.14% epoch    9, iter   1421/11988, global_step 27766 loss = 0.682901
+79.73% epoch    9, iter   1450/11988, global_step 27795 loss = 0.678805
+99.32% epoch    9, iter   1479/11988, global_step 27824 loss = 0.681856
+18.92% epoch   10, iter   1508/11988, global_step 27853 loss = 0.674007
+38.51% epoch   10, iter   1537/11988, global_step 27882 loss = 0.684635
+58.11% epoch   10, iter   1566/11988, global_step 27911 loss = 0.696437
+77.70% epoch   10, iter   1595/11988, global_step 27940 loss = 0.679602
+97.30% epoch   10, iter   1624/11988, global_step 27969 loss = 0.677757
+16.89% epoch   11, iter   1653/11988, global_step 27998 loss = 0.680462
+36.49% epoch   11, iter   1682/11988, global_step 28027 loss = 0.672249
+56.08% epoch   11, iter   1711/11988, global_step 28056 loss = 0.686828
+75.68% epoch   11, iter   1740/11988, global_step 28085 loss = 0.677164
+95.27% epoch   11, iter   1769/11988, global_step 28114 loss = 0.680070
+14.86% epoch   12, iter   1798/11988, global_step 28143 loss = 0.665669
+34.46% epoch   12, iter   1827/11988, global_step 28172 loss = 0.682736
+54.05% epoch   12, iter   1856/11988, global_step 28201 loss = 0.681191
+73.65% epoch   12, iter   1885/11988, global_step 28230 loss = 0.663006
+93.24% epoch   12, iter   1914/11988, global_step 28259 loss = 0.686030
+TRAIN  epoch 12  global_step 28268, NumFallos: 32773, error 0.4311
+TEST   epoch 12  global_step 28268, NumFallos: 10082, error 0.4205
+12.84% epoch   13, iter   1943/11988, global_step 28288 loss = 0.678555
+32.43% epoch   13, iter   1972/11988, global_step 28317 loss = 0.663692
+52.03% epoch   13, iter   2001/11988, global_step 28346 loss = 0.670815
+71.62% epoch   13, iter   2030/11988, global_step 28375 loss = 0.685568
+91.22% epoch   13, iter   2059/11988, global_step 28404 loss = 0.683764
+10.81% epoch   14, iter   2088/11988, global_step 28433 loss = 0.677593
+30.41% epoch   14, iter   2117/11988, global_step 28462 loss = 0.664481
+50.00% epoch   14, iter   2146/11988, global_step 28491 loss = 0.671486
+69.59% epoch   14, iter   2175/11988, global_step 28520 loss = 0.676343
+89.19% epoch   14, iter   2204/11988, global_step 28549 loss = 0.695279
+8.78% epoch   15, iter   2233/11988, global_step 28578 loss = 0.688084
+28.38% epoch   15, iter   2262/11988, global_step 28607 loss = 0.679585
+47.97% epoch   15, iter   2291/11988, global_step 28636 loss = 0.683975
+67.57% epoch   15, iter   2320/11988, global_step 28665 loss = 0.678248
+87.16% epoch   15, iter   2349/11988, global_step 28694 loss = 0.666848
+6.76% epoch   16, iter   2378/11988, global_step 28723 loss = 0.674724
+26.35% epoch   16, iter   2407/11988, global_step 28752 loss = 0.669079
+45.95% epoch   16, iter   2436/11988, global_step 28781 loss = 0.686468
+65.54% epoch   16, iter   2465/11988, global_step 28810 loss = 0.683054
+85.14% epoch   16, iter   2494/11988, global_step 28839 loss = 0.682359
+TRAIN  epoch 16  global_step 28860, NumFallos: 32451, error 0.4269
+TEST   epoch 16  global_step 28860, NumFallos: 9971, error 0.4158
+4.73% epoch   17, iter   2523/11988, global_step 28868 loss = 0.695692
+24.32% epoch   17, iter   2552/11988, global_step 28897 loss = 0.668940
+43.92% epoch   17, iter   2581/11988, global_step 28926 loss = 0.690556
+63.51% epoch   17, iter   2610/11988, global_step 28955 loss = 0.678012
+83.11% epoch   17, iter   2639/11988, global_step 28984 loss = 0.666473
+2.70% epoch   18, iter   2668/11988, global_step 29013 loss = 0.671097
+22.30% epoch   18, iter   2697/11988, global_step 29042 loss = 0.668684
+41.89% epoch   18, iter   2726/11988, global_step 29071 loss = 0.668754
+61.49% epoch   18, iter   2755/11988, global_step 29100 loss = 0.680827
+81.08% epoch   18, iter   2784/11988, global_step 29129 loss = 0.664201
+0.68% epoch   19, iter   2813/11988, global_step 29158 loss = 0.679611
+20.27% epoch   19, iter   2842/11988, global_step 29187 loss = 0.680349
+39.86% epoch   19, iter   2871/11988, global_step 29216 loss = 0.665572
+59.46% epoch   19, iter   2900/11988, global_step 29245 loss = 0.687930
+79.05% epoch   19, iter   2929/11988, global_step 29274 loss = 0.677177
+98.65% epoch   19, iter   2958/11988, global_step 29303 loss = 0.674205
+18.24% epoch   20, iter   2987/11988, global_step 29332 loss = 0.675782
+37.84% epoch   20, iter   3016/11988, global_step 29361 loss = 0.682197
+57.43% epoch   20, iter   3045/11988, global_step 29390 loss = 0.676273
+77.03% epoch   20, iter   3074/11988, global_step 29419 loss = 0.679368
+96.62% epoch   20, iter   3103/11988, global_step 29448 loss = 0.676625
+TRAIN  epoch 20  global_step 29452, NumFallos: 32226, error 0.4239
+TEST   epoch 20  global_step 29452, NumFallos: 9906, error 0.4131
+16.22% epoch   21, iter   3132/11988, global_step 29477 loss = 0.670304
+35.81% epoch   21, iter   3161/11988, global_step 29506 loss = 0.685978
+55.41% epoch   21, iter   3190/11988, global_step 29535 loss = 0.679524
+75.00% epoch   21, iter   3219/11988, global_step 29564 loss = 0.668870
+94.59% epoch   21, iter   3248/11988, global_step 29593 loss = 0.667996
+14.19% epoch   22, iter   3277/11988, global_step 29622 loss = 0.667205
+33.78% epoch   22, iter   3306/11988, global_step 29651 loss = 0.674611
+53.38% epoch   22, iter   3335/11988, global_step 29680 loss = 0.680681
+72.97% epoch   22, iter   3364/11988, global_step 29709 loss = 0.665929
+92.57% epoch   22, iter   3393/11988, global_step 29738 loss = 0.673196
+12.16% epoch   23, iter   3422/11988, global_step 29767 loss = 0.656295
+31.76% epoch   23, iter   3451/11988, global_step 29796 loss = 0.679048
+51.35% epoch   23, iter   3480/11988, global_step 29825 loss = 0.682829
+70.95% epoch   23, iter   3509/11988, global_step 29854 loss = 0.674541
+90.54% epoch   23, iter   3538/11988, global_step 29883 loss = 0.681248
+10.14% epoch   24, iter   3567/11988, global_step 29912 loss = 0.666238
+29.73% epoch   24, iter   3596/11988, global_step 29941 loss = 0.673842
+49.32% epoch   24, iter   3625/11988, global_step 29970 loss = 0.668282
+68.92% epoch   24, iter   3654/11988, global_step 29999 loss = 0.681306
+88.51% epoch   24, iter   3683/11988, global_step 30028 loss = 0.688834
+TRAIN  epoch 24  global_step 30044, NumFallos: 32043, error 0.4215
+TEST   epoch 24  global_step 30044, NumFallos: 9843, error 0.4105
+8.11% epoch   25, iter   3712/11988, global_step 30057 loss = 0.676209
+27.70% epoch   25, iter   3741/11988, global_step 30086 loss = 0.680591
+47.30% epoch   25, iter   3770/11988, global_step 30115 loss = 0.669663
+66.89% epoch   25, iter   3799/11988, global_step 30144 loss = 0.675367
+86.49% epoch   25, iter   3828/11988, global_step 30173 loss = 0.655526
+6.08% epoch   26, iter   3857/11988, global_step 30202 loss = 0.682599
+25.68% epoch   26, iter   3886/11988, global_step 30231 loss = 0.656868
+45.27% epoch   26, iter   3915/11988, global_step 30260 loss = 0.678608
+64.86% epoch   26, iter   3944/11988, global_step 30289 loss = 0.676552
+84.46% epoch   26, iter   3973/11988, global_step 30318 loss = 0.683540
+4.05% epoch   27, iter   4002/11988, global_step 30347 loss = 0.688884
+23.65% epoch   27, iter   4031/11988, global_step 30376 loss = 0.678540
+43.24% epoch   27, iter   4060/11988, global_step 30405 loss = 0.676273
+62.84% epoch   27, iter   4089/11988, global_step 30434 loss = 0.660782
+82.43% epoch   27, iter   4118/11988, global_step 30463 loss = 0.666759
+2.03% epoch   28, iter   4147/11988, global_step 30492 loss = 0.671258
+21.62% epoch   28, iter   4176/11988, global_step 30521 loss = 0.681223
+41.22% epoch   28, iter   4205/11988, global_step 30550 loss = 0.669425
+60.81% epoch   28, iter   4234/11988, global_step 30579 loss = 0.676323
+80.41% epoch   28, iter   4263/11988, global_step 30608 loss = 0.670643
+TRAIN  epoch 28  global_step 30636, NumFallos: 31988, error 0.4208
+TEST   epoch 28  global_step 30636, NumFallos: 9863, error 0.4113
+0.00% epoch   29, iter   4292/11988, global_step 30637 loss = 0.688202
+19.59% epoch   29, iter   4321/11988, global_step 30666 loss = 0.660752
+39.19% epoch   29, iter   4350/11988, global_step 30695 loss = 0.677638
+58.78% epoch   29, iter   4379/11988, global_step 30724 loss = 0.670566
+78.38% epoch   29, iter   4408/11988, global_step 30753 loss = 0.683676
+97.97% epoch   29, iter   4437/11988, global_step 30782 loss = 0.673882
+17.57% epoch   30, iter   4466/11988, global_step 30811 loss = 0.671468
+37.16% epoch   30, iter   4495/11988, global_step 30840 loss = 0.677469
+56.76% epoch   30, iter   4524/11988, global_step 30869 loss = 0.675190
+76.35% epoch   30, iter   4553/11988, global_step 30898 loss = 0.675672
+95.95% epoch   30, iter   4582/11988, global_step 30927 loss = 0.692798
+15.54% epoch   31, iter   4611/11988, global_step 30956 loss = 0.668389
+35.14% epoch   31, iter   4640/11988, global_step 30985 loss = 0.664327
+54.73% epoch   31, iter   4669/11988, global_step 31014 loss = 0.674029
+74.32% epoch   31, iter   4698/11988, global_step 31043 loss = 0.678557
+93.92% epoch   31, iter   4727/11988, global_step 31072 loss = 0.662666
+13.51% epoch   32, iter   4756/11988, global_step 31101 loss = 0.659930
+33.11% epoch   32, iter   4785/11988, global_step 31130 loss = 0.673422
+52.70% epoch   32, iter   4814/11988, global_step 31159 loss = 0.666635
+72.30% epoch   32, iter   4843/11988, global_step 31188 loss = 0.676571
+91.89% epoch   32, iter   4872/11988, global_step 31217 loss = 0.684399
+TRAIN  epoch 32  global_step 31228, NumFallos: 31885, error 0.4194
+TEST   epoch 32  global_step 31228, NumFallos: 9830, error 0.4100
+11.49% epoch   33, iter   4901/11988, global_step 31246 loss = 0.672934
+31.08% epoch   33, iter   4930/11988, global_step 31275 loss = 0.665152
+50.68% epoch   33, iter   4959/11988, global_step 31304 loss = 0.687070
+70.27% epoch   33, iter   4988/11988, global_step 31333 loss = 0.692637
+89.86% epoch   33, iter   5017/11988, global_step 31362 loss = 0.670887
+9.46% epoch   34, iter   5046/11988, global_step 31391 loss = 0.670521
+29.05% epoch   34, iter   5075/11988, global_step 31420 loss = 0.663054
+48.65% epoch   34, iter   5104/11988, global_step 31449 loss = 0.679228
+68.24% epoch   34, iter   5133/11988, global_step 31478 loss = 0.688217
+87.84% epoch   34, iter   5162/11988, global_step 31507 loss = 0.680703
+7.43% epoch   35, iter   5191/11988, global_step 31536 loss = 0.676861
+27.03% epoch   35, iter   5220/11988, global_step 31565 loss = 0.677045
+46.62% epoch   35, iter   5249/11988, global_step 31594 loss = 0.687540
+66.22% epoch   35, iter   5278/11988, global_step 31623 loss = 0.678326
+85.81% epoch   35, iter   5307/11988, global_step 31652 loss = 0.679640
+5.41% epoch   36, iter   5336/11988, global_step 31681 loss = 0.661447
+25.00% epoch   36, iter   5365/11988, global_step 31710 loss = 0.668656
+44.59% epoch   36, iter   5394/11988, global_step 31739 loss = 0.673770
+64.19% epoch   36, iter   5423/11988, global_step 31768 loss = 0.677336
+83.78% epoch   36, iter   5452/11988, global_step 31797 loss = 0.669046
+TRAIN  epoch 36  global_step 31820, NumFallos: 31798, error 0.4183
+TEST   epoch 36  global_step 31820, NumFallos: 9790, error 0.4083
+3.38% epoch   37, iter   5481/11988, global_step 31826 loss = 0.676014
+22.97% epoch   37, iter   5510/11988, global_step 31855 loss = 0.675852
+42.57% epoch   37, iter   5539/11988, global_step 31884 loss = 0.668298
+62.16% epoch   37, iter   5568/11988, global_step 31913 loss = 0.684266
+81.76% epoch   37, iter   5597/11988, global_step 31942 loss = 0.676931
+1.35% epoch   38, iter   5626/11988, global_step 31971 loss = 0.676330
+20.95% epoch   38, iter   5655/11988, global_step 32000 loss = 0.668844
+40.54% epoch   38, iter   5684/11988, global_step 32029 loss = 0.667052
+60.14% epoch   38, iter   5713/11988, global_step 32058 loss = 0.676019
+79.73% epoch   38, iter   5742/11988, global_step 32087 loss = 0.675344
+99.32% epoch   38, iter   5771/11988, global_step 32116 loss = 0.675011
+18.92% epoch   39, iter   5800/11988, global_step 32145 loss = 0.672876
+38.51% epoch   39, iter   5829/11988, global_step 32174 loss = 0.681171
+58.11% epoch   39, iter   5858/11988, global_step 32203 loss = 0.686991
+77.70% epoch   39, iter   5887/11988, global_step 32232 loss = 0.675762
+97.30% epoch   39, iter   5916/11988, global_step 32261 loss = 0.672155
+16.89% epoch   40, iter   5945/11988, global_step 32290 loss = 0.670919
+36.49% epoch   40, iter   5974/11988, global_step 32319 loss = 0.667540
+56.08% epoch   40, iter   6003/11988, global_step 32348 loss = 0.682500
+75.68% epoch   40, iter   6032/11988, global_step 32377 loss = 0.673570
+95.27% epoch   40, iter   6061/11988, global_step 32406 loss = 0.677220
+TRAIN  epoch 40  global_step 32412, NumFallos: 31658, error 0.4164
+TEST   epoch 40  global_step 32412, NumFallos: 9748, error 0.4065
+14.86% epoch   41, iter   6090/11988, global_step 32435 loss = 0.656856
+34.46% epoch   41, iter   6119/11988, global_step 32464 loss = 0.679500
+54.05% epoch   41, iter   6148/11988, global_step 32493 loss = 0.674854
+73.65% epoch   41, iter   6177/11988, global_step 32522 loss = 0.657236
+93.24% epoch   41, iter   6206/11988, global_step 32551 loss = 0.684618
+12.84% epoch   42, iter   6235/11988, global_step 32580 loss = 0.674787
+32.43% epoch   42, iter   6264/11988, global_step 32609 loss = 0.658246
+52.03% epoch   42, iter   6293/11988, global_step 32638 loss = 0.665541
+71.62% epoch   42, iter   6322/11988, global_step 32667 loss = 0.679696
+91.22% epoch   42, iter   6351/11988, global_step 32696 loss = 0.680273
+10.81% epoch   43, iter   6380/11988, global_step 32725 loss = 0.676041
+30.41% epoch   43, iter   6409/11988, global_step 32754 loss = 0.659254
+50.00% epoch   43, iter   6438/11988, global_step 32783 loss = 0.664460
+69.59% epoch   43, iter   6467/11988, global_step 32812 loss = 0.669693
+89.19% epoch   43, iter   6496/11988, global_step 32841 loss = 0.693483
+8.78% epoch   44, iter   6525/11988, global_step 32870 loss = 0.686026
+28.38% epoch   44, iter   6554/11988, global_step 32899 loss = 0.676682
+47.97% epoch   44, iter   6583/11988, global_step 32928 loss = 0.676827
+67.57% epoch   44, iter   6612/11988, global_step 32957 loss = 0.673339
+87.16% epoch   44, iter   6641/11988, global_step 32986 loss = 0.659119
+TRAIN  epoch 44  global_step 33004, NumFallos: 31569, error 0.4153
+TEST   epoch 44  global_step 33004, NumFallos: 9741, error 0.4062
+6.76% epoch   45, iter   6670/11988, global_step 33015 loss = 0.671650
+26.35% epoch   45, iter   6699/11988, global_step 33044 loss = 0.663350
+45.95% epoch   45, iter   6728/11988, global_step 33073 loss = 0.680409
+65.54% epoch   45, iter   6757/11988, global_step 33102 loss = 0.678022
+85.14% epoch   45, iter   6786/11988, global_step 33131 loss = 0.681709
+4.73% epoch   46, iter   6815/11988, global_step 33160 loss = 0.691671
+24.32% epoch   46, iter   6844/11988, global_step 33189 loss = 0.663702
+43.92% epoch   46, iter   6873/11988, global_step 33218 loss = 0.687608
+63.51% epoch   46, iter   6902/11988, global_step 33247 loss = 0.673141
+83.11% epoch   46, iter   6931/11988, global_step 33276 loss = 0.663098
+2.70% epoch   47, iter   6960/11988, global_step 33305 loss = 0.667074
+22.30% epoch   47, iter   6989/11988, global_step 33334 loss = 0.664784
+41.89% epoch   47, iter   7018/11988, global_step 33363 loss = 0.664896
+61.49% epoch   47, iter   7047/11988, global_step 33392 loss = 0.677562
+81.08% epoch   47, iter   7076/11988, global_step 33421 loss = 0.660542
+0.68% epoch   48, iter   7105/11988, global_step 33450 loss = 0.677433
+20.27% epoch   48, iter   7134/11988, global_step 33479 loss = 0.676249
+39.86% epoch   48, iter   7163/11988, global_step 33508 loss = 0.658765
+59.46% epoch   48, iter   7192/11988, global_step 33537 loss = 0.683275
+79.05% epoch   48, iter   7221/11988, global_step 33566 loss = 0.673416
+98.65% epoch   48, iter   7250/11988, global_step 33595 loss = 0.669990
+TRAIN  epoch 48  global_step 33596, NumFallos: 31492, error 0.4142
+TEST   epoch 48  global_step 33596, NumFallos: 9737, error 0.4061
+18.24% epoch   49, iter   7279/11988, global_step 33624 loss = 0.672868
+37.84% epoch   49, iter   7308/11988, global_step 33653 loss = 0.679309
+57.43% epoch   49, iter   7337/11988, global_step 33682 loss = 0.673088
+77.03% epoch   49, iter   7366/11988, global_step 33711 loss = 0.674930
+96.62% epoch   49, iter   7395/11988, global_step 33740 loss = 0.671157
+16.22% epoch   50, iter   7424/11988, global_step 33769 loss = 0.668219
+35.81% epoch   50, iter   7453/11988, global_step 33798 loss = 0.685578
+55.41% epoch   50, iter   7482/11988, global_step 33827 loss = 0.676496
+75.00% epoch   50, iter   7511/11988, global_step 33856 loss = 0.664259
+94.59% epoch   50, iter   7540/11988, global_step 33885 loss = 0.665737
+14.19% epoch   51, iter   7569/11988, global_step 33914 loss = 0.663456
+33.78% epoch   51, iter   7598/11988, global_step 33943 loss = 0.673337
+53.38% epoch   51, iter   7627/11988, global_step 33972 loss = 0.676500
+72.97% epoch   51, iter   7656/11988, global_step 34001 loss = 0.661271
+92.57% epoch   51, iter   7685/11988, global_step 34030 loss = 0.669674
+12.16% epoch   52, iter   7714/11988, global_step 34059 loss = 0.652257
+31.76% epoch   52, iter   7743/11988, global_step 34088 loss = 0.673471
+51.35% epoch   52, iter   7772/11988, global_step 34117 loss = 0.681056
+70.95% epoch   52, iter   7801/11988, global_step 34146 loss = 0.671745
+90.54% epoch   52, iter   7830/11988, global_step 34175 loss = 0.678234
+TRAIN  epoch 52  global_step 34188, NumFallos: 31500, error 0.4144
+TEST   epoch 52  global_step 34188, NumFallos: 9730, error 0.4058
+10.14% epoch   53, iter   7859/11988, global_step 34204 loss = 0.662616
+29.73% epoch   53, iter   7888/11988, global_step 34233 loss = 0.670146
+49.32% epoch   53, iter   7917/11988, global_step 34262 loss = 0.665065
+68.92% epoch   53, iter   7946/11988, global_step 34291 loss = 0.679004
+88.51% epoch   53, iter   7975/11988, global_step 34320 loss = 0.686950
+8.11% epoch   54, iter   8004/11988, global_step 34349 loss = 0.674203
+27.70% epoch   54, iter   8033/11988, global_step 34378 loss = 0.677425
+47.30% epoch   54, iter   8062/11988, global_step 34407 loss = 0.663290
+66.89% epoch   54, iter   8091/11988, global_step 34436 loss = 0.672095
+86.49% epoch   54, iter   8120/11988, global_step 34465 loss = 0.651922
+6.08% epoch   55, iter   8149/11988, global_step 34494 loss = 0.680449
+25.68% epoch   55, iter   8178/11988, global_step 34523 loss = 0.651671
+45.27% epoch   55, iter   8207/11988, global_step 34552 loss = 0.674911
+64.86% epoch   55, iter   8236/11988, global_step 34581 loss = 0.675014
+84.46% epoch   55, iter   8265/11988, global_step 34610 loss = 0.681842
+4.05% epoch   56, iter   8294/11988, global_step 34639 loss = 0.688984
+23.65% epoch   56, iter   8323/11988, global_step 34668 loss = 0.674889
+43.24% epoch   56, iter   8352/11988, global_step 34697 loss = 0.673417
+62.84% epoch   56, iter   8381/11988, global_step 34726 loss = 0.657253
+82.43% epoch   56, iter   8410/11988, global_step 34755 loss = 0.665890
+TRAIN  epoch 56  global_step 34780, NumFallos: 31475, error 0.4140
+TEST   epoch 56  global_step 34780, NumFallos: 9725, error 0.4056
+2.03% epoch   57, iter   8439/11988, global_step 34784 loss = 0.669327
+21.62% epoch   57, iter   8468/11988, global_step 34813 loss = 0.678090
+41.22% epoch   57, iter   8497/11988, global_step 34842 loss = 0.663946
+60.81% epoch   57, iter   8526/11988, global_step 34871 loss = 0.676504
+80.41% epoch   57, iter   8555/11988, global_step 34900 loss = 0.668629
+0.00% epoch   58, iter   8584/11988, global_step 34929 loss = 0.687836
+19.59% epoch   58, iter   8613/11988, global_step 34958 loss = 0.656152
+39.19% epoch   58, iter   8642/11988, global_step 34987 loss = 0.676648
+58.78% epoch   58, iter   8671/11988, global_step 35016 loss = 0.668578
+78.38% epoch   58, iter   8700/11988, global_step 35045 loss = 0.683330
+97.97% epoch   58, iter   8729/11988, global_step 35074 loss = 0.674356
+17.57% epoch   59, iter   8758/11988, global_step 35103 loss = 0.668936
+37.16% epoch   59, iter   8787/11988, global_step 35132 loss = 0.674907
+56.76% epoch   59, iter   8816/11988, global_step 35161 loss = 0.676207
+76.35% epoch   59, iter   8845/11988, global_step 35190 loss = 0.670574
+95.95% epoch   59, iter   8874/11988, global_step 35219 loss = 0.691391
+15.54% epoch   60, iter   8903/11988, global_step 35248 loss = 0.664711
+35.14% epoch   60, iter   8932/11988, global_step 35277 loss = 0.659106
+54.73% epoch   60, iter   8961/11988, global_step 35306 loss = 0.672346
+74.32% epoch   60, iter   8990/11988, global_step 35335 loss = 0.675945
+93.92% epoch   60, iter   9019/11988, global_step 35364 loss = 0.658846
+TRAIN  epoch 60  global_step 35372, NumFallos: 31454, error 0.4137
+TEST   epoch 60  global_step 35372, NumFallos: 9724, error 0.4055
+13.51% epoch   61, iter   9048/11988, global_step 35393 loss = 0.654655
+33.11% epoch   61, iter   9077/11988, global_step 35422 loss = 0.672749
+52.70% epoch   61, iter   9106/11988, global_step 35451 loss = 0.664551
+72.30% epoch   61, iter   9135/11988, global_step 35480 loss = 0.675124
+91.89% epoch   61, iter   9164/11988, global_step 35509 loss = 0.680500
+11.49% epoch   62, iter   9193/11988, global_step 35538 loss = 0.669241
+31.08% epoch   62, iter   9222/11988, global_step 35567 loss = 0.659920
+50.68% epoch   62, iter   9251/11988, global_step 35596 loss = 0.687238
+70.27% epoch   62, iter   9280/11988, global_step 35625 loss = 0.694687
+89.86% epoch   62, iter   9309/11988, global_step 35654 loss = 0.667327
+9.46% epoch   63, iter   9338/11988, global_step 35683 loss = 0.667840
+29.05% epoch   63, iter   9367/11988, global_step 35712 loss = 0.660126
+48.65% epoch   63, iter   9396/11988, global_step 35741 loss = 0.677878
+68.24% epoch   63, iter   9425/11988, global_step 35770 loss = 0.687464
+87.84% epoch   63, iter   9454/11988, global_step 35799 loss = 0.679712
+7.43% epoch   64, iter   9483/11988, global_step 35828 loss = 0.674829
+27.03% epoch   64, iter   9512/11988, global_step 35857 loss = 0.675089
+46.62% epoch   64, iter   9541/11988, global_step 35886 loss = 0.685741
+66.22% epoch   64, iter   9570/11988, global_step 35915 loss = 0.677007
+85.81% epoch   64, iter   9599/11988, global_step 35944 loss = 0.678064
+TRAIN  epoch 64  global_step 35964, NumFallos: 31477, error 0.4141
+TEST   epoch 64  global_step 35964, NumFallos: 9732, error 0.4059
+5.41% epoch   65, iter   9628/11988, global_step 35973 loss = 0.659352
+25.00% epoch   65, iter   9657/11988, global_step 36002 loss = 0.667789
+44.59% epoch   65, iter   9686/11988, global_step 36031 loss = 0.670756
+64.19% epoch   65, iter   9715/11988, global_step 36060 loss = 0.674262
+83.78% epoch   65, iter   9744/11988, global_step 36089 loss = 0.666760
+3.38% epoch   66, iter   9773/11988, global_step 36118 loss = 0.673101
+22.97% epoch   66, iter   9802/11988, global_step 36147 loss = 0.674951
+42.57% epoch   66, iter   9831/11988, global_step 36176 loss = 0.666323
+62.16% epoch   66, iter   9860/11988, global_step 36205 loss = 0.681436
+81.76% epoch   66, iter   9889/11988, global_step 36234 loss = 0.675797
+1.35% epoch   67, iter   9918/11988, global_step 36263 loss = 0.677006
+20.95% epoch   67, iter   9947/11988, global_step 36292 loss = 0.665941
+40.54% epoch   67, iter   9976/11988, global_step 36321 loss = 0.665251
+60.14% epoch   67, iter  10005/11988, global_step 36350 loss = 0.672754
+79.73% epoch   67, iter  10034/11988, global_step 36379 loss = 0.674049
+99.32% epoch   67, iter  10063/11988, global_step 36408 loss = 0.671965
+18.92% epoch   68, iter  10092/11988, global_step 36437 loss = 0.672771
+38.51% epoch   68, iter  10121/11988, global_step 36466 loss = 0.679389
+58.11% epoch   68, iter  10150/11988, global_step 36495 loss = 0.683130
+77.70% epoch   68, iter  10179/11988, global_step 36524 loss = 0.674216
+97.30% epoch   68, iter  10208/11988, global_step 36553 loss = 0.669566
+TRAIN  epoch 68  global_step 36556, NumFallos: 31497, error 0.4143
+TEST   epoch 68  global_step 36556, NumFallos: 9728, error 0.4057
+16.89% epoch   69, iter  10237/11988, global_step 36582 loss = 0.665961
+36.49% epoch   69, iter  10266/11988, global_step 36611 loss = 0.665005
+56.08% epoch   69, iter  10295/11988, global_step 36640 loss = 0.680318
+75.68% epoch   69, iter  10324/11988, global_step 36669 loss = 0.672704
+95.27% epoch   69, iter  10353/11988, global_step 36698 loss = 0.675686
+14.86% epoch   70, iter  10382/11988, global_step 36727 loss = 0.654126
+34.46% epoch   70, iter  10411/11988, global_step 36756 loss = 0.678400
+54.05% epoch   70, iter  10440/11988, global_step 36785 loss = 0.672434
+73.65% epoch   70, iter  10469/11988, global_step 36814 loss = 0.655923
+93.24% epoch   70, iter  10498/11988, global_step 36843 loss = 0.684707
+12.84% epoch   71, iter  10527/11988, global_step 36872 loss = 0.672499
+32.43% epoch   71, iter  10556/11988, global_step 36901 loss = 0.656369
+52.03% epoch   71, iter  10585/11988, global_step 36930 loss = 0.664300
+71.62% epoch   71, iter  10614/11988, global_step 36959 loss = 0.677398
+91.22% epoch   71, iter  10643/11988, global_step 36988 loss = 0.678093
+10.81% epoch   72, iter  10672/11988, global_step 37017 loss = 0.676147
+30.41% epoch   72, iter  10701/11988, global_step 37046 loss = 0.656387
+50.00% epoch   72, iter  10730/11988, global_step 37075 loss = 0.661491
+69.59% epoch   72, iter  10759/11988, global_step 37104 loss = 0.667252
+89.19% epoch   72, iter  10788/11988, global_step 37133 loss = 0.693208
+TRAIN  epoch 72  global_step 37148, NumFallos: 31447, error 0.4137
+TEST   epoch 72  global_step 37148, NumFallos: 9720, error 0.4054
+8.78% epoch   73, iter  10817/11988, global_step 37162 loss = 0.684727
+28.38% epoch   73, iter  10846/11988, global_step 37191 loss = 0.676047
+47.97% epoch   73, iter  10875/11988, global_step 37220 loss = 0.673997
+67.57% epoch   73, iter  10904/11988, global_step 37249 loss = 0.671821
+87.16% epoch   73, iter  10933/11988, global_step 37278 loss = 0.656513
+6.76% epoch   74, iter  10962/11988, global_step 37307 loss = 0.670605
+26.35% epoch   74, iter  10991/11988, global_step 37336 loss = 0.660523
+45.95% epoch   74, iter  11020/11988, global_step 37365 loss = 0.677809
+65.54% epoch   74, iter  11049/11988, global_step 37394 loss = 0.676157
+85.14% epoch   74, iter  11078/11988, global_step 37423 loss = 0.681417
+4.73% epoch   75, iter  11107/11988, global_step 37452 loss = 0.690035
+24.32% epoch   75, iter  11136/11988, global_step 37481 loss = 0.661202
+43.92% epoch   75, iter  11165/11988, global_step 37510 loss = 0.686313
+63.51% epoch   75, iter  11194/11988, global_step 37539 loss = 0.671006
+83.11% epoch   75, iter  11223/11988, global_step 37568 loss = 0.661697
+2.70% epoch   76, iter  11252/11988, global_step 37597 loss = 0.664990
+22.30% epoch   76, iter  11281/11988, global_step 37626 loss = 0.662956
+41.89% epoch   76, iter  11310/11988, global_step 37655 loss = 0.663853
+61.49% epoch   76, iter  11339/11988, global_step 37684 loss = 0.676122
+81.08% epoch   76, iter  11368/11988, global_step 37713 loss = 0.659518
+TRAIN  epoch 76  global_step 37740, NumFallos: 31422, error 0.4133
+TEST   epoch 76  global_step 37740, NumFallos: 9706, error 0.4048
+0.68% epoch   77, iter  11397/11988, global_step 37742 loss = 0.676896
+20.27% epoch   77, iter  11426/11988, global_step 37771 loss = 0.674341
+39.86% epoch   77, iter  11455/11988, global_step 37800 loss = 0.656298
+59.46% epoch   77, iter  11484/11988, global_step 37829 loss = 0.680795
+79.05% epoch   77, iter  11513/11988, global_step 37858 loss = 0.671939
+98.65% epoch   77, iter  11542/11988, global_step 37887 loss = 0.668187
+18.24% epoch   78, iter  11571/11988, global_step 37916 loss = 0.671680
+37.84% epoch   78, iter  11600/11988, global_step 37945 loss = 0.677729
+57.43% epoch   78, iter  11629/11988, global_step 37974 loss = 0.671269
+77.03% epoch   78, iter  11658/11988, global_step 38003 loss = 0.672484
+96.62% epoch   78, iter  11687/11988, global_step 38032 loss = 0.668937
+16.22% epoch   79, iter  11716/11988, global_step 38061 loss = 0.667548
+35.81% epoch   79, iter  11745/11988, global_step 38090 loss = 0.684846
+55.41% epoch   79, iter  11774/11988, global_step 38119 loss = 0.674840
+75.00% epoch   79, iter  11803/11988, global_step 38148 loss = 0.661731
+94.59% epoch   79, iter  11832/11988, global_step 38177 loss = 0.664715
+14.19% epoch   80, iter  11861/11988, global_step 38206 loss = 0.661923
+33.78% epoch   80, iter  11890/11988, global_step 38235 loss = 0.673389
+53.38% epoch   80, iter  11919/11988, global_step 38264 loss = 0.674752
+72.97% epoch   80, iter  11948/11988, global_step 38293 loss = 0.659583
+92.57% epoch   80, iter  11977/11988, global_step 38322 loss = 0.668122
+TRAIN  epoch 80  global_step 38332, NumFallos: 31375, error 0.4127
+TEST   epoch 80  global_step 38332, NumFallos: 9687, error 0.4040
+
+Process finished with exit code 0
+
+/Users/jdiez/venv_TF/bin/python /Users/jdiez/PycharmProjects/OutBrainOtrosCjtos/ML100K_Learning_WV.py
+________________________________________________________
+
+TRABAJANDO CON ML100K
+________________________________________________________
+va a cargar...
+(76022, 44)
+(23978, 44)
+No gusta en test: 43.16873800984236
+Gusta en test: 56.83126199015764
+2020-12-30 11:15:14.518880: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-30 11:15:14.534338: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7f832ff85020 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-30 11:15:14.534353: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+0.00% epoch    0, iter      0/23828, global_step 38333 loss = 0.687652
+19.59% epoch    0, iter     29/23828, global_step 38362 loss = 0.654372
+39.19% epoch    0, iter     58/23828, global_step 38391 loss = 0.676408
+58.78% epoch    0, iter     87/23828, global_step 38420 loss = 0.667838
+78.38% epoch    0, iter    116/23828, global_step 38449 loss = 0.683104
+97.97% epoch    0, iter    145/23828, global_step 38478 loss = 0.675124
+TRAIN  epoch 0  global_step 38480, NumFallos: 31363, error 0.4126
+TEST   epoch 0  global_step 38480, NumFallos: 9686, error 0.4040
+17.57% epoch    1, iter    174/23828, global_step 38507 loss = 0.667964
+37.16% epoch    1, iter    203/23828, global_step 38536 loss = 0.673728
+56.76% epoch    1, iter    232/23828, global_step 38565 loss = 0.676760
+76.35% epoch    1, iter    261/23828, global_step 38594 loss = 0.668543
+95.95% epoch    1, iter    290/23828, global_step 38623 loss = 0.690664
+15.54% epoch    2, iter    319/23828, global_step 38652 loss = 0.663502
+35.14% epoch    2, iter    348/23828, global_step 38681 loss = 0.657000
+54.73% epoch    2, iter    377/23828, global_step 38710 loss = 0.671946
+74.32% epoch    2, iter    406/23828, global_step 38739 loss = 0.674754
+93.92% epoch    2, iter    435/23828, global_step 38768 loss = 0.657270
+13.51% epoch    3, iter    464/23828, global_step 38797 loss = 0.652400
+33.11% epoch    3, iter    493/23828, global_step 38826 loss = 0.672361
+52.70% epoch    3, iter    522/23828, global_step 38855 loss = 0.663664
+72.30% epoch    3, iter    551/23828, global_step 38884 loss = 0.674664
+91.89% epoch    3, iter    580/23828, global_step 38913 loss = 0.678964
+11.49% epoch    4, iter    609/23828, global_step 38942 loss = 0.667529
+31.08% epoch    4, iter    638/23828, global_step 38971 loss = 0.657604
+50.68% epoch    4, iter    667/23828, global_step 39000 loss = 0.687481
+70.27% epoch    4, iter    696/23828, global_step 39029 loss = 0.695851
+89.86% epoch    4, iter    725/23828, global_step 39058 loss = 0.665585
+TRAIN  epoch 4  global_step 39072, NumFallos: 31350, error 0.4124
+TEST   epoch 4  global_step 39072, NumFallos: 9672, error 0.4034
+WARNING:tensorflow:From /Users/jdiez/venv_TF/lib/python3.8/site-packages/tensorflow/python/training/saver.py:969: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+9.46% epoch    5, iter    754/23828, global_step 39087 loss = 0.666895
+29.05% epoch    5, iter    783/23828, global_step 39116 loss = 0.658690
+48.65% epoch    5, iter    812/23828, global_step 39145 loss = 0.677443
+68.24% epoch    5, iter    841/23828, global_step 39174 loss = 0.687230
+87.84% epoch    5, iter    870/23828, global_step 39203 loss = 0.679186
+7.43% epoch    6, iter    899/23828, global_step 39232 loss = 0.674066
+27.03% epoch    6, iter    928/23828, global_step 39261 loss = 0.674230
+46.62% epoch    6, iter    957/23828, global_step 39290 loss = 0.684953
+66.22% epoch    6, iter    986/23828, global_step 39319 loss = 0.676294
+85.81% epoch    6, iter   1015/23828, global_step 39348 loss = 0.677382
+5.41% epoch    7, iter   1044/23828, global_step 39377 loss = 0.658373
+25.00% epoch    7, iter   1073/23828, global_step 39406 loss = 0.667398
+44.59% epoch    7, iter   1102/23828, global_step 39435 loss = 0.669337
+64.19% epoch    7, iter   1131/23828, global_step 39464 loss = 0.672742
+83.78% epoch    7, iter   1160/23828, global_step 39493 loss = 0.665778
+3.38% epoch    8, iter   1189/23828, global_step 39522 loss = 0.671604
+22.97% epoch    8, iter   1218/23828, global_step 39551 loss = 0.674617
+42.57% epoch    8, iter   1247/23828, global_step 39580 loss = 0.665682
+62.16% epoch    8, iter   1276/23828, global_step 39609 loss = 0.680320
+81.76% epoch    8, iter   1305/23828, global_step 39638 loss = 0.675373
+TRAIN  epoch 8  global_step 39664, NumFallos: 31336, error 0.4122
+TEST   epoch 8  global_step 39664, NumFallos: 9666, error 0.4031
+1.35% epoch    9, iter   1334/23828, global_step 39667 loss = 0.677736
+20.95% epoch    9, iter   1363/23828, global_step 39696 loss = 0.664547
+40.54% epoch    9, iter   1392/23828, global_step 39725 loss = 0.664543
+60.14% epoch    9, iter   1421/23828, global_step 39754 loss = 0.670860
+79.73% epoch    9, iter   1450/23828, global_step 39783 loss = 0.673488
+99.32% epoch    9, iter   1479/23828, global_step 39812 loss = 0.670539
+18.92% epoch   10, iter   1508/23828, global_step 39841 loss = 0.672625
+38.51% epoch   10, iter   1537/23828, global_step 39870 loss = 0.678550
+58.11% epoch   10, iter   1566/23828, global_step 39899 loss = 0.681468
+77.70% epoch   10, iter   1595/23828, global_step 39928 loss = 0.673306
+97.30% epoch   10, iter   1624/23828, global_step 39957 loss = 0.668315
+16.89% epoch   11, iter   1653/23828, global_step 39986 loss = 0.663456
+36.49% epoch   11, iter   1682/23828, global_step 40015 loss = 0.663781
+56.08% epoch   11, iter   1711/23828, global_step 40044 loss = 0.679149
+75.68% epoch   11, iter   1740/23828, global_step 40073 loss = 0.672537
+95.27% epoch   11, iter   1769/23828, global_step 40102 loss = 0.674842
+14.86% epoch   12, iter   1798/23828, global_step 40131 loss = 0.653227
+34.46% epoch   12, iter   1827/23828, global_step 40160 loss = 0.677922
+54.05% epoch   12, iter   1856/23828, global_step 40189 loss = 0.671542
+73.65% epoch   12, iter   1885/23828, global_step 40218 loss = 0.655620
+93.24% epoch   12, iter   1914/23828, global_step 40247 loss = 0.684757
+TRAIN  epoch 12  global_step 40256, NumFallos: 31323, error 0.4120
+TEST   epoch 12  global_step 40256, NumFallos: 9652, error 0.4025
+12.84% epoch   13, iter   1943/23828, global_step 40276 loss = 0.671202
+32.43% epoch   13, iter   1972/23828, global_step 40305 loss = 0.655592
+52.03% epoch   13, iter   2001/23828, global_step 40334 loss = 0.664143
+71.62% epoch   13, iter   2030/23828, global_step 40363 loss = 0.676470
+91.22% epoch   13, iter   2059/23828, global_step 40392 loss = 0.676859
+10.81% epoch   14, iter   2088/23828, global_step 40421 loss = 0.676315
+30.41% epoch   14, iter   2117/23828, global_step 40450 loss = 0.654922
+50.00% epoch   14, iter   2146/23828, global_step 40479 loss = 0.660267
+69.59% epoch   14, iter   2175/23828, global_step 40508 loss = 0.666204
+89.19% epoch   14, iter   2204/23828, global_step 40537 loss = 0.693088
+8.78% epoch   15, iter   2233/23828, global_step 40566 loss = 0.683940
+28.38% epoch   15, iter   2262/23828, global_step 40595 loss = 0.675972
+47.97% epoch   15, iter   2291/23828, global_step 40624 loss = 0.672783
+67.57% epoch   15, iter   2320/23828, global_step 40653 loss = 0.671333
+87.16% epoch   15, iter   2349/23828, global_step 40682 loss = 0.655568
+6.76% epoch   16, iter   2378/23828, global_step 40711 loss = 0.670275
+26.35% epoch   16, iter   2407/23828, global_step 40740 loss = 0.659172
+45.95% epoch   16, iter   2436/23828, global_step 40769 loss = 0.676712
+65.54% epoch   16, iter   2465/23828, global_step 40798 loss = 0.675343
+85.14% epoch   16, iter   2494/23828, global_step 40827 loss = 0.681189
+TRAIN  epoch 16  global_step 40848, NumFallos: 31314, error 0.4119
+TEST   epoch 16  global_step 40848, NumFallos: 9662, error 0.4030
+4.73% epoch   17, iter   2523/23828, global_step 40856 loss = 0.689294
+24.32% epoch   17, iter   2552/23828, global_step 40885 loss = 0.660143
+43.92% epoch   17, iter   2581/23828, global_step 40914 loss = 0.685737
+63.51% epoch   17, iter   2610/23828, global_step 40943 loss = 0.670059
+83.11% epoch   17, iter   2639/23828, global_step 40972 loss = 0.661151
+2.70% epoch   18, iter   2668/23828, global_step 41001 loss = 0.663905
+22.30% epoch   18, iter   2697/23828, global_step 41030 loss = 0.662104
+41.89% epoch   18, iter   2726/23828, global_step 41059 loss = 0.663613
+61.49% epoch   18, iter   2755/23828, global_step 41088 loss = 0.675441
+81.08% epoch   18, iter   2784/23828, global_step 41117 loss = 0.659129
+0.68% epoch   19, iter   2813/23828, global_step 41146 loss = 0.676794
+20.27% epoch   19, iter   2842/23828, global_step 41175 loss = 0.673471
+39.86% epoch   19, iter   2871/23828, global_step 41204 loss = 0.655376
+59.46% epoch   19, iter   2900/23828, global_step 41233 loss = 0.679498
+79.05% epoch   19, iter   2929/23828, global_step 41262 loss = 0.671347
+98.65% epoch   19, iter   2958/23828, global_step 41291 loss = 0.667539
+18.24% epoch   20, iter   2987/23828, global_step 41320 loss = 0.671226
+37.84% epoch   20, iter   3016/23828, global_step 41349 loss = 0.676902
+57.43% epoch   20, iter   3045/23828, global_step 41378 loss = 0.670260
+77.03% epoch   20, iter   3074/23828, global_step 41407 loss = 0.671313
+96.62% epoch   20, iter   3103/23828, global_step 41436 loss = 0.667892
+TRAIN  epoch 20  global_step 41440, NumFallos: 31299, error 0.4117
+TEST   epoch 20  global_step 41440, NumFallos: 9659, error 0.4028
+16.22% epoch   21, iter   3132/23828, global_step 41465 loss = 0.667275
+35.81% epoch   21, iter   3161/23828, global_step 41494 loss = 0.684378
+55.41% epoch   21, iter   3190/23828, global_step 41523 loss = 0.673870
+75.00% epoch   21, iter   3219/23828, global_step 41552 loss = 0.660333
+94.59% epoch   21, iter   3248/23828, global_step 41581 loss = 0.664187
+14.19% epoch   22, iter   3277/23828, global_step 41610 loss = 0.661200
+33.78% epoch   22, iter   3306/23828, global_step 41639 loss = 0.673616
+53.38% epoch   22, iter   3335/23828, global_step 41668 loss = 0.673974
+72.97% epoch   22, iter   3364/23828, global_step 41697 loss = 0.659020
+92.57% epoch   22, iter   3393/23828, global_step 41726 loss = 0.667480
+12.16% epoch   23, iter   3422/23828, global_step 41755 loss = 0.648649
+31.76% epoch   23, iter   3451/23828, global_step 41784 loss = 0.670132
+51.35% epoch   23, iter   3480/23828, global_step 41813 loss = 0.679804
+70.95% epoch   23, iter   3509/23828, global_step 41842 loss = 0.670694
+90.54% epoch   23, iter   3538/23828, global_step 41871 loss = 0.676392
+10.14% epoch   24, iter   3567/23828, global_step 41900 loss = 0.659933
+29.73% epoch   24, iter   3596/23828, global_step 41929 loss = 0.668858
+49.32% epoch   24, iter   3625/23828, global_step 41958 loss = 0.663011
+68.92% epoch   24, iter   3654/23828, global_step 41987 loss = 0.678479
+88.51% epoch   24, iter   3683/23828, global_step 42016 loss = 0.685828
+TRAIN  epoch 24  global_step 42032, NumFallos: 31284, error 0.4115
+TEST   epoch 24  global_step 42032, NumFallos: 9660, error 0.4029
+8.11% epoch   25, iter   3712/23828, global_step 42045 loss = 0.673037
+27.70% epoch   25, iter   3741/23828, global_step 42074 loss = 0.674431
+47.30% epoch   25, iter   3770/23828, global_step 42103 loss = 0.658774
+66.89% epoch   25, iter   3799/23828, global_step 42132 loss = 0.669845
+86.49% epoch   25, iter   3828/23828, global_step 42161 loss = 0.650252
+6.08% epoch   26, iter   3857/23828, global_step 42190 loss = 0.678436
+25.68% epoch   26, iter   3886/23828, global_step 42219 loss = 0.648253
+45.27% epoch   26, iter   3915/23828, global_step 42248 loss = 0.672494
+64.86% epoch   26, iter   3944/23828, global_step 42277 loss = 0.674720
+84.46% epoch   26, iter   3973/23828, global_step 42306 loss = 0.681105
+4.05% epoch   27, iter   4002/23828, global_step 42335 loss = 0.690205
+23.65% epoch   27, iter   4031/23828, global_step 42364 loss = 0.671893
+43.24% epoch   27, iter   4060/23828, global_step 42393 loss = 0.671734
+62.84% epoch   27, iter   4089/23828, global_step 42422 loss = 0.655407
+82.43% epoch   27, iter   4118/23828, global_step 42451 loss = 0.665861
+2.03% epoch   28, iter   4147/23828, global_step 42480 loss = 0.668582
+21.62% epoch   28, iter   4176/23828, global_step 42509 loss = 0.675742
+41.22% epoch   28, iter   4205/23828, global_step 42538 loss = 0.660573
+60.81% epoch   28, iter   4234/23828, global_step 42567 loss = 0.676732
+80.41% epoch   28, iter   4263/23828, global_step 42596 loss = 0.667205
+TRAIN  epoch 28  global_step 42624, NumFallos: 31287, error 0.4116
+TEST   epoch 28  global_step 42624, NumFallos: 9665, error 0.4031
+0.00% epoch   29, iter   4292/23828, global_step 42625 loss = 0.687343
+19.59% epoch   29, iter   4321/23828, global_step 42654 loss = 0.653094
+39.19% epoch   29, iter   4350/23828, global_step 42683 loss = 0.676347
+58.78% epoch   29, iter   4379/23828, global_step 42712 loss = 0.667237
+78.38% epoch   29, iter   4408/23828, global_step 42741 loss = 0.682741
+97.97% epoch   29, iter   4437/23828, global_step 42770 loss = 0.675937
+17.57% epoch   30, iter   4466/23828, global_step 42799 loss = 0.667271
+37.16% epoch   30, iter   4495/23828, global_step 42828 loss = 0.672717
+56.76% epoch   30, iter   4524/23828, global_step 42857 loss = 0.677166
+76.35% epoch   30, iter   4553/23828, global_step 42886 loss = 0.667053
+95.95% epoch   30, iter   4582/23828, global_step 42915 loss = 0.689955
+15.54% epoch   31, iter   4611/23828, global_step 42944 loss = 0.662823
+35.14% epoch   31, iter   4640/23828, global_step 42973 loss = 0.655379
+54.73% epoch   31, iter   4669/23828, global_step 43002 loss = 0.671778
+74.32% epoch   31, iter   4698/23828, global_step 43031 loss = 0.673696
+93.92% epoch   31, iter   4727/23828, global_step 43060 loss = 0.655973
+13.51% epoch   32, iter   4756/23828, global_step 43089 loss = 0.650604
+33.11% epoch   32, iter   4785/23828, global_step 43118 loss = 0.671982
+52.70% epoch   32, iter   4814/23828, global_step 43147 loss = 0.662946
+72.30% epoch   32, iter   4843/23828, global_step 43176 loss = 0.674394
+91.89% epoch   32, iter   4872/23828, global_step 43205 loss = 0.677773
+TRAIN  epoch 32  global_step 43216, NumFallos: 31279, error 0.4114
+TEST   epoch 32  global_step 43216, NumFallos: 9655, error 0.4027
+11.49% epoch   33, iter   4901/23828, global_step 43234 loss = 0.666142
+31.08% epoch   33, iter   4930/23828, global_step 43263 loss = 0.655801
+50.68% epoch   33, iter   4959/23828, global_step 43292 loss = 0.687755
+70.27% epoch   33, iter   4988/23828, global_step 43321 loss = 0.696839
+89.86% epoch   33, iter   5017/23828, global_step 43350 loss = 0.664083
+9.46% epoch   34, iter   5046/23828, global_step 43379 loss = 0.666373
+29.05% epoch   34, iter   5075/23828, global_step 43408 loss = 0.657477
+48.65% epoch   34, iter   5104/23828, global_step 43437 loss = 0.677209
+68.24% epoch   34, iter   5133/23828, global_step 43466 loss = 0.687060
+87.84% epoch   34, iter   5162/23828, global_step 43495 loss = 0.678693
+7.43% epoch   35, iter   5191/23828, global_step 43524 loss = 0.673535
+27.03% epoch   35, iter   5220/23828, global_step 43553 loss = 0.673481
+46.62% epoch   35, iter   5249/23828, global_step 43582 loss = 0.684288
+66.22% epoch   35, iter   5278/23828, global_step 43611 loss = 0.675579
+85.81% epoch   35, iter   5307/23828, global_step 43640 loss = 0.676769
+5.41% epoch   36, iter   5336/23828, global_step 43669 loss = 0.657456
+25.00% epoch   36, iter   5365/23828, global_step 43698 loss = 0.667038
+44.59% epoch   36, iter   5394/23828, global_step 43727 loss = 0.668093
+64.19% epoch   36, iter   5423/23828, global_step 43756 loss = 0.671416
+83.78% epoch   36, iter   5452/23828, global_step 43785 loss = 0.664940
+TRAIN  epoch 36  global_step 43808, NumFallos: 31293, error 0.4116
+TEST   epoch 36  global_step 43808, NumFallos: 9670, error 0.4033
+3.38% epoch   37, iter   5481/23828, global_step 43814 loss = 0.670266
+22.97% epoch   37, iter   5510/23828, global_step 43843 loss = 0.674387
+42.57% epoch   37, iter   5539/23828, global_step 43872 loss = 0.665263
+62.16% epoch   37, iter   5568/23828, global_step 43901 loss = 0.679494
+81.76% epoch   37, iter   5597/23828, global_step 43930 loss = 0.675040
+1.35% epoch   38, iter   5626/23828, global_step 43959 loss = 0.678560
+20.95% epoch   38, iter   5655/23828, global_step 43988 loss = 0.663441
+40.54% epoch   38, iter   5684/23828, global_step 44017 loss = 0.664012
+60.14% epoch   38, iter   5713/23828, global_step 44046 loss = 0.668958
+79.73% epoch   38, iter   5742/23828, global_step 44075 loss = 0.673019
+99.32% epoch   38, iter   5771/23828, global_step 44104 loss = 0.669364
+18.92% epoch   39, iter   5800/23828, global_step 44133 loss = 0.672358
+38.51% epoch   39, iter   5829/23828, global_step 44162 loss = 0.677845
+58.11% epoch   39, iter   5858/23828, global_step 44191 loss = 0.680141
+77.70% epoch   39, iter   5887/23828, global_step 44220 loss = 0.672344
+97.30% epoch   39, iter   5916/23828, global_step 44249 loss = 0.667247
+16.89% epoch   40, iter   5945/23828, global_step 44278 loss = 0.661300
+36.49% epoch   40, iter   5974/23828, global_step 44307 loss = 0.662794
+56.08% epoch   40, iter   6003/23828, global_step 44336 loss = 0.678107
+75.68% epoch   40, iter   6032/23828, global_step 44365 loss = 0.672534
+95.27% epoch   40, iter   6061/23828, global_step 44394 loss = 0.674037
+TRAIN  epoch 40  global_step 44400, NumFallos: 31284, error 0.4115
+TEST   epoch 40  global_step 44400, NumFallos: 9672, error 0.4034
+14.86% epoch   41, iter   6090/23828, global_step 44423 loss = 0.652677
+34.46% epoch   41, iter   6119/23828, global_step 44452 loss = 0.677508
+54.05% epoch   41, iter   6148/23828, global_step 44481 loss = 0.670987
+73.65% epoch   41, iter   6177/23828, global_step 44510 loss = 0.655546
+93.24% epoch   41, iter   6206/23828, global_step 44539 loss = 0.684693
+12.84% epoch   42, iter   6235/23828, global_step 44568 loss = 0.669972
+32.43% epoch   42, iter   6264/23828, global_step 44597 loss = 0.654973
+52.03% epoch   42, iter   6293/23828, global_step 44626 loss = 0.664298
+71.62% epoch   42, iter   6322/23828, global_step 44655 loss = 0.675794
+91.22% epoch   42, iter   6351/23828, global_step 44684 loss = 0.675699
+10.81% epoch   43, iter   6380/23828, global_step 44713 loss = 0.676458
+30.41% epoch   43, iter   6409/23828, global_step 44742 loss = 0.653623
+50.00% epoch   43, iter   6438/23828, global_step 44771 loss = 0.659316
+69.59% epoch   43, iter   6467/23828, global_step 44800 loss = 0.665303
+89.19% epoch   43, iter   6496/23828, global_step 44829 loss = 0.692906
+8.78% epoch   44, iter   6525/23828, global_step 44858 loss = 0.683183
+28.38% epoch   44, iter   6554/23828, global_step 44887 loss = 0.676032
+47.97% epoch   44, iter   6583/23828, global_step 44916 loss = 0.671847
+67.57% epoch   44, iter   6612/23828, global_step 44945 loss = 0.671052
+87.16% epoch   44, iter   6641/23828, global_step 44974 loss = 0.654953
+TRAIN  epoch 44  global_step 44992, NumFallos: 31267, error 0.4113
+TEST   epoch 44  global_step 44992, NumFallos: 9670, error 0.4033
+6.76% epoch   45, iter   6670/23828, global_step 45003 loss = 0.670088
+26.35% epoch   45, iter   6699/23828, global_step 45032 loss = 0.658035
+45.95% epoch   45, iter   6728/23828, global_step 45061 loss = 0.675883
+65.54% epoch   45, iter   6757/23828, global_step 45090 loss = 0.674637
+85.14% epoch   45, iter   6786/23828, global_step 45119 loss = 0.680886
+4.73% epoch   46, iter   6815/23828, global_step 45148 loss = 0.688649
+24.32% epoch   46, iter   6844/23828, global_step 45177 loss = 0.659365
+43.92% epoch   46, iter   6873/23828, global_step 45206 loss = 0.685293
+63.51% epoch   46, iter   6902/23828, global_step 45235 loss = 0.669292
+83.11% epoch   46, iter   6931/23828, global_step 45264 loss = 0.660771
+2.70% epoch   47, iter   6960/23828, global_step 45293 loss = 0.662909
+22.30% epoch   47, iter   6989/23828, global_step 45322 loss = 0.661396
+41.89% epoch   47, iter   7018/23828, global_step 45351 loss = 0.663574
+61.49% epoch   47, iter   7047/23828, global_step 45380 loss = 0.674868
+81.08% epoch   47, iter   7076/23828, global_step 45409 loss = 0.658798
+0.68% epoch   48, iter   7105/23828, global_step 45438 loss = 0.676803
+20.27% epoch   48, iter   7134/23828, global_step 45467 loss = 0.672790
+39.86% epoch   48, iter   7163/23828, global_step 45496 loss = 0.654748
+59.46% epoch   48, iter   7192/23828, global_step 45525 loss = 0.678369
+79.05% epoch   48, iter   7221/23828, global_step 45554 loss = 0.670917
+98.65% epoch   48, iter   7250/23828, global_step 45583 loss = 0.667163
+TRAIN  epoch 48  global_step 45584, NumFallos: 31235, error 0.4109
+TEST   epoch 48  global_step 45584, NumFallos: 9661, error 0.4029
+18.24% epoch   49, iter   7279/23828, global_step 45612 loss = 0.670924
+37.84% epoch   49, iter   7308/23828, global_step 45641 loss = 0.676176
+57.43% epoch   49, iter   7337/23828, global_step 45670 loss = 0.669311
+77.03% epoch   49, iter   7366/23828, global_step 45699 loss = 0.670376
+96.62% epoch   49, iter   7395/23828, global_step 45728 loss = 0.666957
+16.22% epoch   50, iter   7424/23828, global_step 45757 loss = 0.667070
+35.81% epoch   50, iter   7453/23828, global_step 45786 loss = 0.683967
+55.41% epoch   50, iter   7482/23828, global_step 45815 loss = 0.672922
+75.00% epoch   50, iter   7511/23828, global_step 45844 loss = 0.659017
+94.59% epoch   50, iter   7540/23828, global_step 45873 loss = 0.663672
+14.19% epoch   51, iter   7569/23828, global_step 45902 loss = 0.660594
+33.78% epoch   51, iter   7598/23828, global_step 45931 loss = 0.673900
+53.38% epoch   51, iter   7627/23828, global_step 45960 loss = 0.673331
+72.97% epoch   51, iter   7656/23828, global_step 45989 loss = 0.658695
+92.57% epoch   51, iter   7685/23828, global_step 46018 loss = 0.667047
+12.16% epoch   52, iter   7714/23828, global_step 46047 loss = 0.647521
+31.76% epoch   52, iter   7743/23828, global_step 46076 loss = 0.669499
+51.35% epoch   52, iter   7772/23828, global_step 46105 loss = 0.679262
+70.95% epoch   52, iter   7801/23828, global_step 46134 loss = 0.670528
+90.54% epoch   52, iter   7830/23828, global_step 46163 loss = 0.675948
+TRAIN  epoch 52  global_step 46176, NumFallos: 31234, error 0.4109
+TEST   epoch 52  global_step 46176, NumFallos: 9652, error 0.4025
+10.14% epoch   53, iter   7859/23828, global_step 46192 loss = 0.659141
+29.73% epoch   53, iter   7888/23828, global_step 46221 loss = 0.668712
+49.32% epoch   53, iter   7917/23828, global_step 46250 loss = 0.662338
+68.92% epoch   53, iter   7946/23828, global_step 46279 loss = 0.678609
+88.51% epoch   53, iter   7975/23828, global_step 46308 loss = 0.685460
+8.11% epoch   54, iter   8004/23828, global_step 46337 loss = 0.672701
+27.70% epoch   54, iter   8033/23828, global_step 46366 loss = 0.673426
+47.30% epoch   54, iter   8062/23828, global_step 46395 loss = 0.657585
+66.89% epoch   54, iter   8091/23828, global_step 46424 loss = 0.669134
+86.49% epoch   54, iter   8120/23828, global_step 46453 loss = 0.649880
+6.08% epoch   55, iter   8149/23828, global_step 46482 loss = 0.677622
+25.68% epoch   55, iter   8178/23828, global_step 46511 loss = 0.647269
+45.27% epoch   55, iter   8207/23828, global_step 46540 loss = 0.671882
+64.86% epoch   55, iter   8236/23828, global_step 46569 loss = 0.674789
+84.46% epoch   55, iter   8265/23828, global_step 46598 loss = 0.681105
+4.05% epoch   56, iter   8294/23828, global_step 46627 loss = 0.690678
+23.65% epoch   56, iter   8323/23828, global_step 46656 loss = 0.670906
+43.24% epoch   56, iter   8352/23828, global_step 46685 loss = 0.671381
+62.84% epoch   56, iter   8381/23828, global_step 46714 loss = 0.655019
+82.43% epoch   56, iter   8410/23828, global_step 46743 loss = 0.665959
+TRAIN  epoch 56  global_step 46768, NumFallos: 31182, error 0.4102
+TEST   epoch 56  global_step 46768, NumFallos: 9646, error 0.4023
+2.03% epoch   57, iter   8439/23828, global_step 46772 loss = 0.668496
+21.62% epoch   57, iter   8468/23828, global_step 46801 loss = 0.675043
+41.22% epoch   57, iter   8497/23828, global_step 46830 loss = 0.659891
+60.81% epoch   57, iter   8526/23828, global_step 46859 loss = 0.676768
+80.41% epoch   57, iter   8555/23828, global_step 46888 loss = 0.666692
+0.00% epoch   58, iter   8584/23828, global_step 46917 loss = 0.686992
+19.59% epoch   58, iter   8613/23828, global_step 46946 loss = 0.652360
+39.19% epoch   58, iter   8642/23828, global_step 46975 loss = 0.676397
+58.78% epoch   58, iter   8671/23828, global_step 47004 loss = 0.666810
+78.38% epoch   58, iter   8700/23828, global_step 47033 loss = 0.682360
+97.97% epoch   58, iter   8729/23828, global_step 47062 loss = 0.676496
+17.57% epoch   59, iter   8758/23828, global_step 47091 loss = 0.666885
+37.16% epoch   59, iter   8787/23828, global_step 47120 loss = 0.672016
+56.76% epoch   59, iter   8816/23828, global_step 47149 loss = 0.677355
+76.35% epoch   59, iter   8845/23828, global_step 47178 loss = 0.666187
+95.95% epoch   59, iter   8874/23828, global_step 47207 loss = 0.689400
+15.54% epoch   60, iter   8903/23828, global_step 47236 loss = 0.662558
+35.14% epoch   60, iter   8932/23828, global_step 47265 loss = 0.654327
+54.73% epoch   60, iter   8961/23828, global_step 47294 loss = 0.671735
+74.32% epoch   60, iter   8990/23828, global_step 47323 loss = 0.672909
+93.92% epoch   60, iter   9019/23828, global_step 47352 loss = 0.655080
+TRAIN  epoch 60  global_step 47360, NumFallos: 31177, error 0.4101
+TEST   epoch 60  global_step 47360, NumFallos: 9640, error 0.4020
+13.51% epoch   61, iter   9048/23828, global_step 47381 loss = 0.649430
+33.11% epoch   61, iter   9077/23828, global_step 47410 loss = 0.671669
+52.70% epoch   61, iter   9106/23828, global_step 47439 loss = 0.662458
+72.30% epoch   61, iter   9135/23828, global_step 47468 loss = 0.674271
+91.89% epoch   61, iter   9164/23828, global_step 47497 loss = 0.676995
+11.49% epoch   62, iter   9193/23828, global_step 47526 loss = 0.665231
+31.08% epoch   62, iter   9222/23828, global_step 47555 loss = 0.654692
+50.68% epoch   62, iter   9251/23828, global_step 47584 loss = 0.687984
+70.27% epoch   62, iter   9280/23828, global_step 47613 loss = 0.697500
+89.86% epoch   62, iter   9309/23828, global_step 47642 loss = 0.663069
+9.46% epoch   63, iter   9338/23828, global_step 47671 loss = 0.666206
+29.05% epoch   63, iter   9367/23828, global_step 47700 loss = 0.656655
+48.65% epoch   63, iter   9396/23828, global_step 47729 loss = 0.677143
+68.24% epoch   63, iter   9425/23828, global_step 47758 loss = 0.686934
+87.84% epoch   63, iter   9454/23828, global_step 47787 loss = 0.678349
+7.43% epoch   64, iter   9483/23828, global_step 47816 loss = 0.673222
+27.03% epoch   64, iter   9512/23828, global_step 47845 loss = 0.672949
+46.62% epoch   64, iter   9541/23828, global_step 47874 loss = 0.683790
+66.22% epoch   64, iter   9570/23828, global_step 47903 loss = 0.674976
+85.81% epoch   64, iter   9599/23828, global_step 47932 loss = 0.676288
+TRAIN  epoch 64  global_step 47952, NumFallos: 31156, error 0.4098
+TEST   epoch 64  global_step 47952, NumFallos: 9629, error 0.4016
+5.41% epoch   65, iter   9628/23828, global_step 47961 loss = 0.656735
+25.00% epoch   65, iter   9657/23828, global_step 47990 loss = 0.666751
+44.59% epoch   65, iter   9686/23828, global_step 48019 loss = 0.667210
+64.19% epoch   65, iter   9715/23828, global_step 48048 loss = 0.670496
+83.78% epoch   65, iter   9744/23828, global_step 48077 loss = 0.664350
+3.38% epoch   66, iter   9773/23828, global_step 48106 loss = 0.669316
+22.97% epoch   66, iter   9802/23828, global_step 48135 loss = 0.674265
+42.57% epoch   66, iter   9831/23828, global_step 48164 loss = 0.665009
+62.16% epoch   66, iter   9860/23828, global_step 48193 loss = 0.678972
+81.76% epoch   66, iter   9889/23828, global_step 48222 loss = 0.674774
+1.35% epoch   67, iter   9918/23828, global_step 48251 loss = 0.679206
+20.95% epoch   67, iter   9947/23828, global_step 48280 loss = 0.662765
+40.54% epoch   67, iter   9976/23828, global_step 48309 loss = 0.663661
+60.14% epoch   67, iter  10005/23828, global_step 48338 loss = 0.667451
+79.73% epoch   67, iter  10034/23828, global_step 48367 loss = 0.672686
+99.32% epoch   67, iter  10063/23828, global_step 48396 loss = 0.668583
+18.92% epoch   68, iter  10092/23828, global_step 48425 loss = 0.672063
+38.51% epoch   68, iter  10121/23828, global_step 48454 loss = 0.677338
+58.11% epoch   68, iter  10150/23828, global_step 48483 loss = 0.679258
+77.70% epoch   68, iter  10179/23828, global_step 48512 loss = 0.671542
+97.30% epoch   68, iter  10208/23828, global_step 48541 loss = 0.666512
+TRAIN  epoch 68  global_step 48544, NumFallos: 31173, error 0.4101
+TEST   epoch 68  global_step 48544, NumFallos: 9629, error 0.4016
+16.89% epoch   69, iter  10237/23828, global_step 48570 loss = 0.659819
+36.49% epoch   69, iter  10266/23828, global_step 48599 loss = 0.662161
+56.08% epoch   69, iter  10295/23828, global_step 48628 loss = 0.677384
+75.68% epoch   69, iter  10324/23828, global_step 48657 loss = 0.672601
+95.27% epoch   69, iter  10353/23828, global_step 48686 loss = 0.673413
+14.86% epoch   70, iter  10382/23828, global_step 48715 loss = 0.652381
+34.46% epoch   70, iter  10411/23828, global_step 48744 loss = 0.677217
+54.05% epoch   70, iter  10440/23828, global_step 48773 loss = 0.670730
+73.65% epoch   70, iter  10469/23828, global_step 48802 loss = 0.655608
+93.24% epoch   70, iter  10498/23828, global_step 48831 loss = 0.684548
+12.84% epoch   71, iter  10527/23828, global_step 48860 loss = 0.669049
+32.43% epoch   71, iter  10556/23828, global_step 48889 loss = 0.654564
+52.03% epoch   71, iter  10585/23828, global_step 48918 loss = 0.664575
+71.62% epoch   71, iter  10614/23828, global_step 48947 loss = 0.675399
+91.22% epoch   71, iter  10643/23828, global_step 48976 loss = 0.674849
+10.81% epoch   72, iter  10672/23828, global_step 49005 loss = 0.676525
+30.41% epoch   72, iter  10701/23828, global_step 49034 loss = 0.652686
+50.00% epoch   72, iter  10730/23828, global_step 49063 loss = 0.658679
+69.59% epoch   72, iter  10759/23828, global_step 49092 loss = 0.664630
+89.19% epoch   72, iter  10788/23828, global_step 49121 loss = 0.692697
+TRAIN  epoch 72  global_step 49136, NumFallos: 31185, error 0.4102
+TEST   epoch 72  global_step 49136, NumFallos: 9637, error 0.4019
+8.78% epoch   73, iter  10817/23828, global_step 49150 loss = 0.682625
+28.38% epoch   73, iter  10846/23828, global_step 49179 loss = 0.676131
+47.97% epoch   73, iter  10875/23828, global_step 49208 loss = 0.671275
+67.57% epoch   73, iter  10904/23828, global_step 49237 loss = 0.670920
+87.16% epoch   73, iter  10933/23828, global_step 49266 loss = 0.654646
+6.76% epoch   74, iter  10962/23828, global_step 49295 loss = 0.670010
+26.35% epoch   74, iter  10991/23828, global_step 49324 loss = 0.657251
+45.95% epoch   74, iter  11020/23828, global_step 49353 loss = 0.675368
+65.54% epoch   74, iter  11049/23828, global_step 49382 loss = 0.674114
+85.14% epoch   74, iter  11078/23828, global_step 49411 loss = 0.680586
+4.73% epoch   75, iter  11107/23828, global_step 49440 loss = 0.688165
+24.32% epoch   75, iter  11136/23828, global_step 49469 loss = 0.658903
+43.92% epoch   75, iter  11165/23828, global_step 49498 loss = 0.685018
+63.51% epoch   75, iter  11194/23828, global_step 49527 loss = 0.668766
+83.11% epoch   75, iter  11223/23828, global_step 49556 loss = 0.660546
+2.70% epoch   76, iter  11252/23828, global_step 49585 loss = 0.662167
+22.30% epoch   76, iter  11281/23828, global_step 49614 loss = 0.660915
+41.89% epoch   76, iter  11310/23828, global_step 49643 loss = 0.663659
+61.49% epoch   76, iter  11339/23828, global_step 49672 loss = 0.674478
+81.08% epoch   76, iter  11368/23828, global_step 49701 loss = 0.658536
+TRAIN  epoch 76  global_step 49728, NumFallos: 31171, error 0.4100
+TEST   epoch 76  global_step 49728, NumFallos: 9622, error 0.4013
+0.68% epoch   77, iter  11397/23828, global_step 49730 loss = 0.676874
+20.27% epoch   77, iter  11426/23828, global_step 49759 loss = 0.672370
+39.86% epoch   77, iter  11455/23828, global_step 49788 loss = 0.654395
+59.46% epoch   77, iter  11484/23828, global_step 49817 loss = 0.677615
+79.05% epoch   77, iter  11513/23828, global_step 49846 loss = 0.670674
+98.65% epoch   77, iter  11542/23828, global_step 49875 loss = 0.667010
+18.24% epoch   78, iter  11571/23828, global_step 49904 loss = 0.670765
+37.84% epoch   78, iter  11600/23828, global_step 49933 loss = 0.675680
+57.43% epoch   78, iter  11629/23828, global_step 49962 loss = 0.668597
+77.03% epoch   78, iter  11658/23828, global_step 49991 loss = 0.669790
+96.62% epoch   78, iter  11687/23828, global_step 50020 loss = 0.666255
+16.22% epoch   79, iter  11716/23828, global_step 50049 loss = 0.666957
+35.81% epoch   79, iter  11745/23828, global_step 50078 loss = 0.683711
+55.41% epoch   79, iter  11774/23828, global_step 50107 loss = 0.672197
+75.00% epoch   79, iter  11803/23828, global_step 50136 loss = 0.658035
+94.59% epoch   79, iter  11832/23828, global_step 50165 loss = 0.663251
+14.19% epoch   80, iter  11861/23828, global_step 50194 loss = 0.660201
+33.78% epoch   80, iter  11890/23828, global_step 50223 loss = 0.674124
+53.38% epoch   80, iter  11919/23828, global_step 50252 loss = 0.672882
+72.97% epoch   80, iter  11948/23828, global_step 50281 loss = 0.658547
+92.57% epoch   80, iter  11977/23828, global_step 50310 loss = 0.666843
+TRAIN  epoch 80  global_step 50320, NumFallos: 31179, error 0.4101
+TEST   epoch 80  global_step 50320, NumFallos: 9611, error 0.4008
+12.16% epoch   81, iter  12006/23828, global_step 50339 loss = 0.646697
+31.76% epoch   81, iter  12035/23828, global_step 50368 loss = 0.669199
+51.35% epoch   81, iter  12064/23828, global_step 50397 loss = 0.678776
+70.95% epoch   81, iter  12093/23828, global_step 50426 loss = 0.670453
+90.54% epoch   81, iter  12122/23828, global_step 50455 loss = 0.675664
+10.14% epoch   82, iter  12151/23828, global_step 50484 loss = 0.658545
+29.73% epoch   82, iter  12180/23828, global_step 50513 loss = 0.668636
+49.32% epoch   82, iter  12209/23828, global_step 50542 loss = 0.661803
+68.92% epoch   82, iter  12238/23828, global_step 50571 loss = 0.678807
+88.51% epoch   82, iter  12267/23828, global_step 50600 loss = 0.685169
+8.11% epoch   83, iter  12296/23828, global_step 50629 loss = 0.672454
+27.70% epoch   83, iter  12325/23828, global_step 50658 loss = 0.672682
+47.30% epoch   83, iter  12354/23828, global_step 50687 loss = 0.656786
+66.89% epoch   83, iter  12383/23828, global_step 50716 loss = 0.668599
+86.49% epoch   83, iter  12412/23828, global_step 50745 loss = 0.649629
+6.08% epoch   84, iter  12441/23828, global_step 50774 loss = 0.676906
+25.68% epoch   84, iter  12470/23828, global_step 50803 loss = 0.646576
+45.27% epoch   84, iter  12499/23828, global_step 50832 loss = 0.671469
+64.86% epoch   84, iter  12528/23828, global_step 50861 loss = 0.674863
+84.46% epoch   84, iter  12557/23828, global_step 50890 loss = 0.681211
+TRAIN  epoch 84  global_step 50912, NumFallos: 31172, error 0.4100
+TEST   epoch 84  global_step 50912, NumFallos: 9614, error 0.4010
+4.05% epoch   85, iter  12586/23828, global_step 50919 loss = 0.691002
+23.65% epoch   85, iter  12615/23828, global_step 50948 loss = 0.670165
+43.24% epoch   85, iter  12644/23828, global_step 50977 loss = 0.671190
+62.84% epoch   85, iter  12673/23828, global_step 51006 loss = 0.654771
+82.43% epoch   85, iter  12702/23828, global_step 51035 loss = 0.666080
+2.03% epoch   86, iter  12731/23828, global_step 51064 loss = 0.668449
+21.62% epoch   86, iter  12760/23828, global_step 51093 loss = 0.674507
+41.22% epoch   86, iter  12789/23828, global_step 51122 loss = 0.659520
+60.81% epoch   86, iter  12818/23828, global_step 51151 loss = 0.676800
+80.41% epoch   86, iter  12847/23828, global_step 51180 loss = 0.666271
+0.00% epoch   87, iter  12876/23828, global_step 51209 loss = 0.686645
+19.59% epoch   87, iter  12905/23828, global_step 51238 loss = 0.651919
+39.19% epoch   87, iter  12934/23828, global_step 51267 loss = 0.676493
+58.78% epoch   87, iter  12963/23828, global_step 51296 loss = 0.666482
+78.38% epoch   87, iter  12992/23828, global_step 51325 loss = 0.682009
+97.97% epoch   87, iter  13021/23828, global_step 51354 loss = 0.676844
+17.57% epoch   88, iter  13050/23828, global_step 51383 loss = 0.666665
+37.16% epoch   88, iter  13079/23828, global_step 51412 loss = 0.671505
+56.76% epoch   88, iter  13108/23828, global_step 51441 loss = 0.677409
+76.35% epoch   88, iter  13137/23828, global_step 51470 loss = 0.665671
+95.95% epoch   88, iter  13166/23828, global_step 51499 loss = 0.688958
+TRAIN  epoch 88  global_step 51504, NumFallos: 31174, error 0.4101
+TEST   epoch 88  global_step 51504, NumFallos: 9615, error 0.4010
+15.54% epoch   89, iter  13195/23828, global_step 51528 loss = 0.662473
+35.14% epoch   89, iter  13224/23828, global_step 51557 loss = 0.653580
+54.73% epoch   89, iter  13253/23828, global_step 51586 loss = 0.671731
+74.32% epoch   89, iter  13282/23828, global_step 51615 loss = 0.672294
+93.92% epoch   89, iter  13311/23828, global_step 51644 loss = 0.654427
+13.51% epoch   90, iter  13340/23828, global_step 51673 loss = 0.648616
+33.11% epoch   90, iter  13369/23828, global_step 51702 loss = 0.671391
+52.70% epoch   90, iter  13398/23828, global_step 51731 loss = 0.662094
+72.30% epoch   90, iter  13427/23828, global_step 51760 loss = 0.674206
+91.89% epoch   90, iter  13456/23828, global_step 51789 loss = 0.676445
+11.49% epoch   91, iter  13485/23828, global_step 51818 loss = 0.664590
+31.08% epoch   91, iter  13514/23828, global_step 51847 loss = 0.653983
+50.68% epoch   91, iter  13543/23828, global_step 51876 loss = 0.688179
+70.27% epoch   91, iter  13572/23828, global_step 51905 loss = 0.697973
+89.86% epoch   91, iter  13601/23828, global_step 51934 loss = 0.662373
+9.46% epoch   92, iter  13630/23828, global_step 51963 loss = 0.666198
+29.05% epoch   92, iter  13659/23828, global_step 51992 loss = 0.656077
+48.65% epoch   92, iter  13688/23828, global_step 52021 loss = 0.677154
+68.24% epoch   92, iter  13717/23828, global_step 52050 loss = 0.686830
+87.84% epoch   92, iter  13746/23828, global_step 52079 loss = 0.678119
+TRAIN  epoch 92  global_step 52096, NumFallos: 31192, error 0.4103
+TEST   epoch 92  global_step 52096, NumFallos: 9617, error 0.4011
+7.43% epoch   93, iter  13775/23828, global_step 52108 loss = 0.673017
+27.03% epoch   93, iter  13804/23828, global_step 52137 loss = 0.672563
+46.62% epoch   93, iter  13833/23828, global_step 52166 loss = 0.683376
+66.22% epoch   93, iter  13862/23828, global_step 52195 loss = 0.674447
+85.81% epoch   93, iter  13891/23828, global_step 52224 loss = 0.675885
+5.41% epoch   94, iter  13920/23828, global_step 52253 loss = 0.656148
+25.00% epoch   94, iter  13949/23828, global_step 52282 loss = 0.666507
+44.59% epoch   94, iter  13978/23828, global_step 52311 loss = 0.666555
+64.19% epoch   94, iter  14007/23828, global_step 52340 loss = 0.669837
+83.78% epoch   94, iter  14036/23828, global_step 52369 loss = 0.663920
+3.38% epoch   95, iter  14065/23828, global_step 52398 loss = 0.668619
+22.97% epoch   95, iter  14094/23828, global_step 52427 loss = 0.674202
+42.57% epoch   95, iter  14123/23828, global_step 52456 loss = 0.664819
+62.16% epoch   95, iter  14152/23828, global_step 52485 loss = 0.678600
+81.76% epoch   95, iter  14181/23828, global_step 52514 loss = 0.674523
+1.35% epoch   96, iter  14210/23828, global_step 52543 loss = 0.679695
+20.95% epoch   96, iter  14239/23828, global_step 52572 loss = 0.662341
+40.54% epoch   96, iter  14268/23828, global_step 52601 loss = 0.663388
+60.14% epoch   96, iter  14297/23828, global_step 52630 loss = 0.666246
+79.73% epoch   96, iter  14326/23828, global_step 52659 loss = 0.672430
+99.32% epoch   96, iter  14355/23828, global_step 52688 loss = 0.668035
+TRAIN  epoch 96  global_step 52688, NumFallos: 31191, error 0.4103
+TEST   epoch 96  global_step 52688, NumFallos: 9618, error 0.4011
+18.92% epoch   97, iter  14384/23828, global_step 52717 loss = 0.671780
+38.51% epoch   97, iter  14413/23828, global_step 52746 loss = 0.676929
+58.11% epoch   97, iter  14442/23828, global_step 52775 loss = 0.678624
+77.70% epoch   97, iter  14471/23828, global_step 52804 loss = 0.670872
+97.30% epoch   97, iter  14500/23828, global_step 52833 loss = 0.665977
+16.89% epoch   98, iter  14529/23828, global_step 52862 loss = 0.658754
+36.49% epoch   98, iter  14558/23828, global_step 52891 loss = 0.661727
+56.08% epoch   98, iter  14587/23828, global_step 52920 loss = 0.676871
+75.68% epoch   98, iter  14616/23828, global_step 52949 loss = 0.672677
+95.27% epoch   98, iter  14645/23828, global_step 52978 loss = 0.672903
+14.86% epoch   99, iter  14674/23828, global_step 53007 loss = 0.652174
+34.46% epoch   99, iter  14703/23828, global_step 53036 loss = 0.677010
+54.05% epoch   99, iter  14732/23828, global_step 53065 loss = 0.670606
+73.65% epoch   99, iter  14761/23828, global_step 53094 loss = 0.655721
+93.24% epoch   99, iter  14790/23828, global_step 53123 loss = 0.684377
+12.84% epoch  100, iter  14819/23828, global_step 53152 loss = 0.668340
+32.43% epoch  100, iter  14848/23828, global_step 53181 loss = 0.654276
+52.03% epoch  100, iter  14877/23828, global_step 53210 loss = 0.664861
+71.62% epoch  100, iter  14906/23828, global_step 53239 loss = 0.675152
+91.22% epoch  100, iter  14935/23828, global_step 53268 loss = 0.674218
+TRAIN  epoch 100  global_step 53280, NumFallos: 31178, error 0.4101
+TEST   epoch 100  global_step 53280, NumFallos: 9614, error 0.4010
+10.81% epoch  101, iter  14964/23828, global_step 53297 loss = 0.676540
+30.41% epoch  101, iter  14993/23828, global_step 53326 loss = 0.651977
+50.00% epoch  101, iter  15022/23828, global_step 53355 loss = 0.658204
+69.59% epoch  101, iter  15051/23828, global_step 53384 loss = 0.664087
+89.19% epoch  101, iter  15080/23828, global_step 53413 loss = 0.692483
+8.78% epoch  102, iter  15109/23828, global_step 53442 loss = 0.682211
+28.38% epoch  102, iter  15138/23828, global_step 53471 loss = 0.676219
+47.97% epoch  102, iter  15167/23828, global_step 53500 loss = 0.670917
+67.57% epoch  102, iter  15196/23828, global_step 53529 loss = 0.670843
+87.16% epoch  102, iter  15225/23828, global_step 53558 loss = 0.654495
+6.76% epoch  103, iter  15254/23828, global_step 53587 loss = 0.669980
+26.35% epoch  103, iter  15283/23828, global_step 53616 loss = 0.656674
+45.95% epoch  103, iter  15312/23828, global_step 53645 loss = 0.675016
+65.54% epoch  103, iter  15341/23828, global_step 53674 loss = 0.673705
+85.14% epoch  103, iter  15370/23828, global_step 53703 loss = 0.680303
+4.73% epoch  104, iter  15399/23828, global_step 53732 loss = 0.687773
+24.32% epoch  104, iter  15428/23828, global_step 53761 loss = 0.658601
+43.92% epoch  104, iter  15457/23828, global_step 53790 loss = 0.684839
+63.51% epoch  104, iter  15486/23828, global_step 53819 loss = 0.668370
+83.11% epoch  104, iter  15515/23828, global_step 53848 loss = 0.660385
+TRAIN  epoch 104  global_step 53872, NumFallos: 31174, error 0.4101
+TEST   epoch 104  global_step 53872, NumFallos: 9613, error 0.4009
+2.70% epoch  105, iter  15544/23828, global_step 53877 loss = 0.661594
+22.30% epoch  105, iter  15573/23828, global_step 53906 loss = 0.660567
+41.89% epoch  105, iter  15602/23828, global_step 53935 loss = 0.663797
+61.49% epoch  105, iter  15631/23828, global_step 53964 loss = 0.674196
+81.08% epoch  105, iter  15660/23828, global_step 53993 loss = 0.658309
+0.68% epoch  106, iter  15689/23828, global_step 54022 loss = 0.676970
+20.27% epoch  106, iter  15718/23828, global_step 54051 loss = 0.672097
+39.86% epoch  106, iter  15747/23828, global_step 54080 loss = 0.654173
+59.46% epoch  106, iter  15776/23828, global_step 54109 loss = 0.677111
+79.05% epoch  106, iter  15805/23828, global_step 54138 loss = 0.670538
+98.65% epoch  106, iter  15834/23828, global_step 54167 loss = 0.666952
+18.24% epoch  107, iter  15863/23828, global_step 54196 loss = 0.670676
+37.84% epoch  107, iter  15892/23828, global_step 54225 loss = 0.675337
+57.43% epoch  107, iter  15921/23828, global_step 54254 loss = 0.668038
+77.03% epoch  107, iter  15950/23828, global_step 54283 loss = 0.669412
+96.62% epoch  107, iter  15979/23828, global_step 54312 loss = 0.665699
+16.22% epoch  108, iter  16008/23828, global_step 54341 loss = 0.666904
+35.81% epoch  108, iter  16037/23828, global_step 54370 loss = 0.683564
+55.41% epoch  108, iter  16066/23828, global_step 54399 loss = 0.671633
+75.00% epoch  108, iter  16095/23828, global_step 54428 loss = 0.657285
+94.59% epoch  108, iter  16124/23828, global_step 54457 loss = 0.662897
+TRAIN  epoch 108  global_step 54464, NumFallos: 31177, error 0.4101
+TEST   epoch 108  global_step 54464, NumFallos: 9608, error 0.4007
+14.19% epoch  109, iter  16153/23828, global_step 54486 loss = 0.659946
+33.78% epoch  109, iter  16182/23828, global_step 54515 loss = 0.674287
+53.38% epoch  109, iter  16211/23828, global_step 54544 loss = 0.672539
+72.97% epoch  109, iter  16240/23828, global_step 54573 loss = 0.658468
+92.57% epoch  109, iter  16269/23828, global_step 54602 loss = 0.666763
+12.16% epoch  110, iter  16298/23828, global_step 54631 loss = 0.646069
+31.76% epoch  110, iter  16327/23828, global_step 54660 loss = 0.669073
+51.35% epoch  110, iter  16356/23828, global_step 54689 loss = 0.678346
+70.95% epoch  110, iter  16385/23828, global_step 54718 loss = 0.670429
+90.54% epoch  110, iter  16414/23828, global_step 54747 loss = 0.675469
+10.14% epoch  111, iter  16443/23828, global_step 54776 loss = 0.658069
+29.73% epoch  111, iter  16472/23828, global_step 54805 loss = 0.668580
+49.32% epoch  111, iter  16501/23828, global_step 54834 loss = 0.661360
+68.92% epoch  111, iter  16530/23828, global_step 54863 loss = 0.679016
+88.51% epoch  111, iter  16559/23828, global_step 54892 loss = 0.684931
+8.11% epoch  112, iter  16588/23828, global_step 54921 loss = 0.672266
+27.70% epoch  112, iter  16617/23828, global_step 54950 loss = 0.672114
+47.30% epoch  112, iter  16646/23828, global_step 54979 loss = 0.656212
+66.89% epoch  112, iter  16675/23828, global_step 55008 loss = 0.668176
+86.49% epoch  112, iter  16704/23828, global_step 55037 loss = 0.649446
+TRAIN  epoch 112  global_step 55056, NumFallos: 31169, error 0.4100
+TEST   epoch 112  global_step 55056, NumFallos: 9611, error 0.4008
+6.08% epoch  113, iter  16733/23828, global_step 55066 loss = 0.676259
+25.68% epoch  113, iter  16762/23828, global_step 55095 loss = 0.646069
+45.27% epoch  113, iter  16791/23828, global_step 55124 loss = 0.671170
+64.86% epoch  113, iter  16820/23828, global_step 55153 loss = 0.674927
+84.46% epoch  113, iter  16849/23828, global_step 55182 loss = 0.681369
+4.05% epoch  114, iter  16878/23828, global_step 55211 loss = 0.691216
+23.65% epoch  114, iter  16907/23828, global_step 55240 loss = 0.669587
+43.24% epoch  114, iter  16936/23828, global_step 55269 loss = 0.671092
+62.84% epoch  114, iter  16965/23828, global_step 55298 loss = 0.654592
+82.43% epoch  114, iter  16994/23828, global_step 55327 loss = 0.666212
+2.03% epoch  115, iter  17023/23828, global_step 55356 loss = 0.668405
+21.62% epoch  115, iter  17052/23828, global_step 55385 loss = 0.674067
+41.22% epoch  115, iter  17081/23828, global_step 55414 loss = 0.659311
+60.81% epoch  115, iter  17110/23828, global_step 55443 loss = 0.676838
+80.41% epoch  115, iter  17139/23828, global_step 55472 loss = 0.665923
+0.00% epoch  116, iter  17168/23828, global_step 55501 loss = 0.686326
+19.59% epoch  116, iter  17197/23828, global_step 55530 loss = 0.651652
+39.19% epoch  116, iter  17226/23828, global_step 55559 loss = 0.676609
+58.78% epoch  116, iter  17255/23828, global_step 55588 loss = 0.666216
+78.38% epoch  116, iter  17284/23828, global_step 55617 loss = 0.681708
+97.97% epoch  116, iter  17313/23828, global_step 55646 loss = 0.677039
+TRAIN  epoch 116  global_step 55648, NumFallos: 31166, error 0.4100
+TEST   epoch 116  global_step 55648, NumFallos: 9605, error 0.4006
+17.57% epoch  117, iter  17342/23828, global_step 55675 loss = 0.666538
+37.16% epoch  117, iter  17371/23828, global_step 55704 loss = 0.671118
+56.76% epoch  117, iter  17400/23828, global_step 55733 loss = 0.677382
+76.35% epoch  117, iter  17429/23828, global_step 55762 loss = 0.665366
+95.95% epoch  117, iter  17458/23828, global_step 55791 loss = 0.688603
+15.54% epoch  118, iter  17487/23828, global_step 55820 loss = 0.662470
+35.14% epoch  118, iter  17516/23828, global_step 55849 loss = 0.653012
+54.73% epoch  118, iter  17545/23828, global_step 55878 loss = 0.671739
+74.32% epoch  118, iter  17574/23828, global_step 55907 loss = 0.671802
+93.92% epoch  118, iter  17603/23828, global_step 55936 loss = 0.653933
+13.51% epoch  119, iter  17632/23828, global_step 55965 loss = 0.648027
+33.11% epoch  119, iter  17661/23828, global_step 55994 loss = 0.671134
+52.70% epoch  119, iter  17690/23828, global_step 56023 loss = 0.661801
+72.30% epoch  119, iter  17719/23828, global_step 56052 loss = 0.674166
+91.89% epoch  119, iter  17748/23828, global_step 56081 loss = 0.676032
+11.49% epoch  120, iter  17777/23828, global_step 56110 loss = 0.664110
+31.08% epoch  120, iter  17806/23828, global_step 56139 loss = 0.653514
+50.68% epoch  120, iter  17835/23828, global_step 56168 loss = 0.688344
+70.27% epoch  120, iter  17864/23828, global_step 56197 loss = 0.698331
+89.86% epoch  120, iter  17893/23828, global_step 56226 loss = 0.661886
+TRAIN  epoch 120  global_step 56240, NumFallos: 31184, error 0.4102
+TEST   epoch 120  global_step 56240, NumFallos: 9597, error 0.4002
+9.46% epoch  121, iter  17922/23828, global_step 56255 loss = 0.666259
+29.05% epoch  121, iter  17951/23828, global_step 56284 loss = 0.655663
+48.65% epoch  121, iter  17980/23828, global_step 56313 loss = 0.677205
+68.24% epoch  121, iter  18009/23828, global_step 56342 loss = 0.686742
+87.84% epoch  121, iter  18038/23828, global_step 56371 loss = 0.677971
+7.43% epoch  122, iter  18067/23828, global_step 56400 loss = 0.672874
+27.03% epoch  122, iter  18096/23828, global_step 56429 loss = 0.672282
+46.62% epoch  122, iter  18125/23828, global_step 56458 loss = 0.683013
+66.22% epoch  122, iter  18154/23828, global_step 56487 loss = 0.673976
+85.81% epoch  122, iter  18183/23828, global_step 56516 loss = 0.675537
+5.41% epoch  123, iter  18212/23828, global_step 56545 loss = 0.655663
+25.00% epoch  123, iter  18241/23828, global_step 56574 loss = 0.666293
+44.59% epoch  123, iter  18270/23828, global_step 56603 loss = 0.666055
+64.19% epoch  123, iter  18299/23828, global_step 56632 loss = 0.669352
+83.78% epoch  123, iter  18328/23828, global_step 56661 loss = 0.663604
+3.38% epoch  124, iter  18357/23828, global_step 56690 loss = 0.668092
+22.97% epoch  124, iter  18386/23828, global_step 56719 loss = 0.674174
+42.57% epoch  124, iter  18415/23828, global_step 56748 loss = 0.664663
+62.16% epoch  124, iter  18444/23828, global_step 56777 loss = 0.678314
+81.76% epoch  124, iter  18473/23828, global_step 56806 loss = 0.674275
+TRAIN  epoch 124  global_step 56832, NumFallos: 31178, error 0.4101
+TEST   epoch 124  global_step 56832, NumFallos: 9595, error 0.4002
+1.35% epoch  125, iter  18502/23828, global_step 56835 loss = 0.680068
+20.95% epoch  125, iter  18531/23828, global_step 56864 loss = 0.662069
+40.54% epoch  125, iter  18560/23828, global_step 56893 loss = 0.663154
+60.14% epoch  125, iter  18589/23828, global_step 56922 loss = 0.665277
+79.73% epoch  125, iter  18618/23828, global_step 56951 loss = 0.672225
+99.32% epoch  125, iter  18647/23828, global_step 56980 loss = 0.667636
+18.92% epoch  126, iter  18676/23828, global_step 57009 loss = 0.671526
+38.51% epoch  126, iter  18705/23828, global_step 57038 loss = 0.676577
+58.11% epoch  126, iter  18734/23828, global_step 57067 loss = 0.678147
+77.70% epoch  126, iter  18763/23828, global_step 57096 loss = 0.670311
+97.30% epoch  126, iter  18792/23828, global_step 57125 loss = 0.665570
+16.89% epoch  127, iter  18821/23828, global_step 57154 loss = 0.657958
+36.49% epoch  127, iter  18850/23828, global_step 57183 loss = 0.661407
+56.08% epoch  127, iter  18879/23828, global_step 57212 loss = 0.676498
+75.68% epoch  127, iter  18908/23828, global_step 57241 loss = 0.672743
+95.27% epoch  127, iter  18937/23828, global_step 57270 loss = 0.672468
+14.86% epoch  128, iter  18966/23828, global_step 57299 loss = 0.651995
+34.46% epoch  128, iter  18995/23828, global_step 57328 loss = 0.676865
+54.05% epoch  128, iter  19024/23828, global_step 57357 loss = 0.670544
+73.65% epoch  128, iter  19053/23828, global_step 57386 loss = 0.655846
+93.24% epoch  128, iter  19082/23828, global_step 57415 loss = 0.684211
+TRAIN  epoch 128  global_step 57424, NumFallos: 31183, error 0.4102
+TEST   epoch 128  global_step 57424, NumFallos: 9594, error 0.4001
+12.84% epoch  129, iter  19111/23828, global_step 57444 loss = 0.667787
+32.43% epoch  129, iter  19140/23828, global_step 57473 loss = 0.654065
+52.03% epoch  129, iter  19169/23828, global_step 57502 loss = 0.665117
+71.62% epoch  129, iter  19198/23828, global_step 57531 loss = 0.674988
+91.22% epoch  129, iter  19227/23828, global_step 57560 loss = 0.673745
+10.81% epoch  130, iter  19256/23828, global_step 57589 loss = 0.676520
+30.41% epoch  130, iter  19285/23828, global_step 57618 loss = 0.651422
+50.00% epoch  130, iter  19314/23828, global_step 57647 loss = 0.657826
+69.59% epoch  130, iter  19343/23828, global_step 57676 loss = 0.663635
+89.19% epoch  130, iter  19372/23828, global_step 57705 loss = 0.692277
+8.78% epoch  131, iter  19401/23828, global_step 57734 loss = 0.681901
+28.38% epoch  131, iter  19430/23828, global_step 57763 loss = 0.676283
+47.97% epoch  131, iter  19459/23828, global_step 57792 loss = 0.670691
+67.57% epoch  131, iter  19488/23828, global_step 57821 loss = 0.670782
+87.16% epoch  131, iter  19517/23828, global_step 57850 loss = 0.654427
+6.76% epoch  132, iter  19546/23828, global_step 57879 loss = 0.669974
+26.35% epoch  132, iter  19575/23828, global_step 57908 loss = 0.656228
+45.95% epoch  132, iter  19604/23828, global_step 57937 loss = 0.674755
+65.54% epoch  132, iter  19633/23828, global_step 57966 loss = 0.673377
+85.14% epoch  132, iter  19662/23828, global_step 57995 loss = 0.680045
+TRAIN  epoch 132  global_step 58016, NumFallos: 31178, error 0.4101
+TEST   epoch 132  global_step 58016, NumFallos: 9591, error 0.4000
+4.73% epoch  133, iter  19691/23828, global_step 58024 loss = 0.687445
+24.32% epoch  133, iter  19720/23828, global_step 58053 loss = 0.658388
+43.92% epoch  133, iter  19749/23828, global_step 58082 loss = 0.684715
+63.51% epoch  133, iter  19778/23828, global_step 58111 loss = 0.668052
+83.11% epoch  133, iter  19807/23828, global_step 58140 loss = 0.660251
+2.70% epoch  134, iter  19836/23828, global_step 58169 loss = 0.661140
+22.30% epoch  134, iter  19865/23828, global_step 58198 loss = 0.660303
+41.89% epoch  134, iter  19894/23828, global_step 58227 loss = 0.663960
+61.49% epoch  134, iter  19923/23828, global_step 58256 loss = 0.673982
+81.08% epoch  134, iter  19952/23828, global_step 58285 loss = 0.658104
+0.68% epoch  135, iter  19981/23828, global_step 58314 loss = 0.677075
+20.27% epoch  135, iter  20010/23828, global_step 58343 loss = 0.671911
+39.86% epoch  135, iter  20039/23828, global_step 58372 loss = 0.654018
+59.46% epoch  135, iter  20068/23828, global_step 58401 loss = 0.676774
+79.05% epoch  135, iter  20097/23828, global_step 58430 loss = 0.670471
+98.65% epoch  135, iter  20126/23828, global_step 58459 loss = 0.666932
+18.24% epoch  136, iter  20155/23828, global_step 58488 loss = 0.670625
+37.84% epoch  136, iter  20184/23828, global_step 58517 loss = 0.675097
+57.43% epoch  136, iter  20213/23828, global_step 58546 loss = 0.667588
+77.03% epoch  136, iter  20242/23828, global_step 58575 loss = 0.669161
+96.62% epoch  136, iter  20271/23828, global_step 58604 loss = 0.665249
+TRAIN  epoch 136  global_step 58608, NumFallos: 31175, error 0.4101
+TEST   epoch 136  global_step 58608, NumFallos: 9586, error 0.3998
+16.22% epoch  137, iter  20300/23828, global_step 58633 loss = 0.666892
+35.81% epoch  137, iter  20329/23828, global_step 58662 loss = 0.683490
+55.41% epoch  137, iter  20358/23828, global_step 58691 loss = 0.671184
+75.00% epoch  137, iter  20387/23828, global_step 58720 loss = 0.656700
+94.59% epoch  137, iter  20416/23828, global_step 58749 loss = 0.662595
+14.19% epoch  138, iter  20445/23828, global_step 58778 loss = 0.659782
+33.78% epoch  138, iter  20474/23828, global_step 58807 loss = 0.674400
+53.38% epoch  138, iter  20503/23828, global_step 58836 loss = 0.672258
+72.97% epoch  138, iter  20532/23828, global_step 58865 loss = 0.658417
+92.57% epoch  138, iter  20561/23828, global_step 58894 loss = 0.666749
+12.16% epoch  139, iter  20590/23828, global_step 58923 loss = 0.645573
+31.76% epoch  139, iter  20619/23828, global_step 58952 loss = 0.669044
+51.35% epoch  139, iter  20648/23828, global_step 58981 loss = 0.677970
+70.95% epoch  139, iter  20677/23828, global_step 59010 loss = 0.670434
+90.54% epoch  139, iter  20706/23828, global_step 59039 loss = 0.675330
+10.14% epoch  140, iter  20735/23828, global_step 59068 loss = 0.657677
+29.73% epoch  140, iter  20764/23828, global_step 59097 loss = 0.668527
+49.32% epoch  140, iter  20793/23828, global_step 59126 loss = 0.660985
+68.92% epoch  140, iter  20822/23828, global_step 59155 loss = 0.679210
+88.51% epoch  140, iter  20851/23828, global_step 59184 loss = 0.684736
+TRAIN  epoch 140  global_step 59200, NumFallos: 31172, error 0.4100
+TEST   epoch 140  global_step 59200, NumFallos: 9583, error 0.3997
+8.11% epoch  141, iter  20880/23828, global_step 59213 loss = 0.672122
+27.70% epoch  141, iter  20909/23828, global_step 59242 loss = 0.671669
+47.30% epoch  141, iter  20938/23828, global_step 59271 loss = 0.655779
+66.89% epoch  141, iter  20967/23828, global_step 59300 loss = 0.667831
+86.49% epoch  141, iter  20996/23828, global_step 59329 loss = 0.649309
+6.08% epoch  142, iter  21025/23828, global_step 59358 loss = 0.675672
+25.68% epoch  142, iter  21054/23828, global_step 59387 loss = 0.645687
+45.27% epoch  142, iter  21083/23828, global_step 59416 loss = 0.670943
+64.86% epoch  142, iter  21112/23828, global_step 59445 loss = 0.674980
+84.46% epoch  142, iter  21141/23828, global_step 59474 loss = 0.681552
+4.05% epoch  143, iter  21170/23828, global_step 59503 loss = 0.691351
+23.65% epoch  143, iter  21199/23828, global_step 59532 loss = 0.669124
+43.24% epoch  143, iter  21228/23828, global_step 59561 loss = 0.671053
+62.84% epoch  143, iter  21257/23828, global_step 59590 loss = 0.654451
+82.43% epoch  143, iter  21286/23828, global_step 59619 loss = 0.666344
+2.03% epoch  144, iter  21315/23828, global_step 59648 loss = 0.668358
+21.62% epoch  144, iter  21344/23828, global_step 59677 loss = 0.673693
+41.22% epoch  144, iter  21373/23828, global_step 59706 loss = 0.659195
+60.81% epoch  144, iter  21402/23828, global_step 59735 loss = 0.676882
+80.41% epoch  144, iter  21431/23828, global_step 59764 loss = 0.665636
+TRAIN  epoch 144  global_step 59792, NumFallos: 31167, error 0.4100
+TEST   epoch 144  global_step 59792, NumFallos: 9587, error 0.3998
+0.00% epoch  145, iter  21460/23828, global_step 59793 loss = 0.686045
+19.59% epoch  145, iter  21489/23828, global_step 59822 loss = 0.651494
+39.19% epoch  145, iter  21518/23828, global_step 59851 loss = 0.676732
+58.78% epoch  145, iter  21547/23828, global_step 59880 loss = 0.665993
+78.38% epoch  145, iter  21576/23828, global_step 59909 loss = 0.681457
+97.97% epoch  145, iter  21605/23828, global_step 59938 loss = 0.677127
+17.57% epoch  146, iter  21634/23828, global_step 59967 loss = 0.666467
+37.16% epoch  146, iter  21663/23828, global_step 59996 loss = 0.670813
+56.76% epoch  146, iter  21692/23828, global_step 60025 loss = 0.677307
+76.35% epoch  146, iter  21721/23828, global_step 60054 loss = 0.665192
+95.95% epoch  146, iter  21750/23828, global_step 60083 loss = 0.688314
+15.54% epoch  147, iter  21779/23828, global_step 60112 loss = 0.662507
+35.14% epoch  147, iter  21808/23828, global_step 60141 loss = 0.652561
+54.73% epoch  147, iter  21837/23828, global_step 60170 loss = 0.671751
+74.32% epoch  147, iter  21866/23828, global_step 60199 loss = 0.671404
+93.92% epoch  147, iter  21895/23828, global_step 60228 loss = 0.653545
+13.51% epoch  148, iter  21924/23828, global_step 60257 loss = 0.647589
+33.11% epoch  148, iter  21953/23828, global_step 60286 loss = 0.670895
+52.70% epoch  148, iter  21982/23828, global_step 60315 loss = 0.661553
+72.30% epoch  148, iter  22011/23828, global_step 60344 loss = 0.674133
+91.89% epoch  148, iter  22040/23828, global_step 60373 loss = 0.675709
+TRAIN  epoch 148  global_step 60384, NumFallos: 31167, error 0.4100
+TEST   epoch 148  global_step 60384, NumFallos: 9581, error 0.3996
+11.49% epoch  149, iter  22069/23828, global_step 60402 loss = 0.663730
+31.08% epoch  149, iter  22098/23828, global_step 60431 loss = 0.653199
+50.68% epoch  149, iter  22127/23828, global_step 60460 loss = 0.688485
+70.27% epoch  149, iter  22156/23828, global_step 60489 loss = 0.698613
+89.86% epoch  149, iter  22185/23828, global_step 60518 loss = 0.661541
+9.46% epoch  150, iter  22214/23828, global_step 60547 loss = 0.666347
+29.05% epoch  150, iter  22243/23828, global_step 60576 loss = 0.655366
+48.65% epoch  150, iter  22272/23828, global_step 60605 loss = 0.677275
+68.24% epoch  150, iter  22301/23828, global_step 60634 loss = 0.686671
+87.84% epoch  150, iter  22330/23828, global_step 60663 loss = 0.677880
+7.43% epoch  151, iter  22359/23828, global_step 60692 loss = 0.672772
+27.03% epoch  151, iter  22388/23828, global_step 60721 loss = 0.672074
+46.62% epoch  151, iter  22417/23828, global_step 60750 loss = 0.682686
+66.22% epoch  151, iter  22446/23828, global_step 60779 loss = 0.673556
+85.81% epoch  151, iter  22475/23828, global_step 60808 loss = 0.675232
+5.41% epoch  152, iter  22504/23828, global_step 60837 loss = 0.655258
+25.00% epoch  152, iter  22533/23828, global_step 60866 loss = 0.666102
+44.59% epoch  152, iter  22562/23828, global_step 60895 loss = 0.665661
+64.19% epoch  152, iter  22591/23828, global_step 60924 loss = 0.668986
+83.78% epoch  152, iter  22620/23828, global_step 60953 loss = 0.663370
+TRAIN  epoch 152  global_step 60976, NumFallos: 31167, error 0.4100
+TEST   epoch 152  global_step 60976, NumFallos: 9581, error 0.3996
+3.38% epoch  153, iter  22649/23828, global_step 60982 loss = 0.667685
+22.97% epoch  153, iter  22678/23828, global_step 61011 loss = 0.674169
+42.57% epoch  153, iter  22707/23828, global_step 61040 loss = 0.664529
+62.16% epoch  153, iter  22736/23828, global_step 61069 loss = 0.678084
+81.76% epoch  153, iter  22765/23828, global_step 61098 loss = 0.674031
+1.35% epoch  154, iter  22794/23828, global_step 61127 loss = 0.680358
+20.95% epoch  154, iter  22823/23828, global_step 61156 loss = 0.661890
+40.54% epoch  154, iter  22852/23828, global_step 61185 loss = 0.662944
+60.14% epoch  154, iter  22881/23828, global_step 61214 loss = 0.664492
+79.73% epoch  154, iter  22910/23828, global_step 61243 loss = 0.672055
+99.32% epoch  154, iter  22939/23828, global_step 61272 loss = 0.667337
+18.92% epoch  155, iter  22968/23828, global_step 61301 loss = 0.671304
+38.51% epoch  155, iter  22997/23828, global_step 61330 loss = 0.676262
+58.11% epoch  155, iter  23026/23828, global_step 61359 loss = 0.677777
+77.70% epoch  155, iter  23055/23828, global_step 61388 loss = 0.669838
+97.30% epoch  155, iter  23084/23828, global_step 61417 loss = 0.665250
+16.89% epoch  156, iter  23113/23828, global_step 61446 loss = 0.657346
+36.49% epoch  156, iter  23142/23828, global_step 61475 loss = 0.661159
+56.08% epoch  156, iter  23171/23828, global_step 61504 loss = 0.676220
+75.68% epoch  156, iter  23200/23828, global_step 61533 loss = 0.672795
+95.27% epoch  156, iter  23229/23828, global_step 61562 loss = 0.672087
+TRAIN  epoch 156  global_step 61568, NumFallos: 31157, error 0.4098
+TEST   epoch 156  global_step 61568, NumFallos: 9578, error 0.3994
+14.86% epoch  157, iter  23258/23828, global_step 61591 loss = 0.651820
+34.46% epoch  157, iter  23287/23828, global_step 61620 loss = 0.676765
+54.05% epoch  157, iter  23316/23828, global_step 61649 loss = 0.670513
+73.65% epoch  157, iter  23345/23828, global_step 61678 loss = 0.655969
+93.24% epoch  157, iter  23374/23828, global_step 61707 loss = 0.684061
+12.84% epoch  158, iter  23403/23828, global_step 61736 loss = 0.667351
+32.43% epoch  158, iter  23432/23828, global_step 61765 loss = 0.653908
+52.03% epoch  158, iter  23461/23828, global_step 61794 loss = 0.665329
+71.62% epoch  158, iter  23490/23828, global_step 61823 loss = 0.674874
+91.22% epoch  158, iter  23519/23828, global_step 61852 loss = 0.673389
+10.81% epoch  159, iter  23548/23828, global_step 61881 loss = 0.676478
+30.41% epoch  159, iter  23577/23828, global_step 61910 loss = 0.650977
+50.00% epoch  159, iter  23606/23828, global_step 61939 loss = 0.657515
+69.59% epoch  159, iter  23635/23828, global_step 61968 loss = 0.663253
+89.19% epoch  159, iter  23664/23828, global_step 61997 loss = 0.692089
+8.78% epoch  160, iter  23693/23828, global_step 62026 loss = 0.681667
+28.38% epoch  160, iter  23722/23828, global_step 62055 loss = 0.676322
+47.97% epoch  160, iter  23751/23828, global_step 62084 loss = 0.670552
+67.57% epoch  160, iter  23780/23828, global_step 62113 loss = 0.670724
+87.16% epoch  160, iter  23809/23828, global_step 62142 loss = 0.654407
+TRAIN  epoch 160  global_step 62160, NumFallos: 31144, error 0.4097
+TEST   epoch 160  global_step 62160, NumFallos: 9568, error 0.3990
+
+Process finished with exit code 0
