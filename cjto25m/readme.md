@@ -1,4 +1,4 @@
-## Desarrollos para los distintos modelos para el conjunto 25M
+## Resultados de los distintos modelos para el conjunto Movilens 25M
 ### Tratamiento de los datos
 #### -[Preprocesado25M.ipynb](https://github.com/tiatordos/articulo_generos_peliculas/blob/main/cjto25m/preprocesado25M.ipynb) Preprocesado del conjunto de datos
 
